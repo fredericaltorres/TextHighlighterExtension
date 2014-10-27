@@ -4,7 +4,7 @@ Copyright (c) 2010-2014 Frederic Torres
 
 ## Overview
 
-his Visual Studio extension offers syntax highlighting for the following text formats:
+This Visual Studio extension offers syntax highlighting for the following text formats:
 
 * .json (also offer syntax validation, automatic insertion of double quote, curly bracket and bracket)
 * .bat (also offer limited intellisense)
