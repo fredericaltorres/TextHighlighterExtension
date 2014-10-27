@@ -1,9 +1,22 @@
-
 License - TextHighLighterExtension v 3.x - Copyright (c) 2010-2014 Frederic Torres
 
-Text syntax Highlighting for Visual Studio 2010, 2012, 2013 (.txt, .log, .bat, .ini, .json, .ps1)
+This Visual Studio extension offers syntax highlighting for the following text formats:
 
-http://www.frederictorres.net
+* .json (also offer syntax validation, automatic insertion of double quote, curly bracket and bracket)
+* .bat (also offer limited intellisense)
+* .cmd
+* .ini
+* .Log4j.properties file [New]
+* .bash (alpha) [New]
+* .txt
+* .log
+
+ Visual Studio 2010
+ https://visualstudiogallery.msdn.microsoft.com/6706b602-6f10-4fd1-8e14-75840f855569
+ Visual Studio 2012
+ https://visualstudiogallery.msdn.microsoft.com/fd129629-a1a1-417c-ac80-c9ac7a67b968
+ Visual Studio 2013
+ https://visualstudiogallery.msdn.microsoft.com/a6932e93-c163-45d6-9992-2fca1b1fe4fd
 
 LICENSE
 
@@ -24,3 +37,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+AUTHOR
+
+http://www.frederictorres.net

@@ -41,7 +41,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DynamicSugar">
-      <HintPath>..\..\..\ref\DynamicSugar.dll</HintPath>
+      <HintPath>..\ref\DynamicSugar.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

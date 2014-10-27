@@ -1,7 +1,0 @@
-C:\Users\frederic.torres\Desktop\TextHighlighterExtensionV30\Utils\bin\Release\Utils.dll
-C:\Users\frederic.torres\Desktop\TextHighlighterExtensionV30\Utils\bin\Release\Utils.pdb
-C:\Users\frederic.torres\Desktop\TextHighlighterExtensionV30\Utils\bin\Release\DynamicSugar.dll
-C:\Users\frederic.torres\Desktop\TextHighlighterExtensionV30\Utils\bin\Release\Newtonsoft.Json.dll
-C:\Users\frederic.torres\Desktop\TextHighlighterExtensionV30\Utils\obj\Release\Utils.csprojResolveAssemblyReference.cache
-C:\Users\frederic.torres\Desktop\TextHighlighterExtensionV30\Utils\obj\Release\Utils.dll
-C:\Users\frederic.torres\Desktop\TextHighlighterExtensionV30\Utils\obj\Release\Utils.pdb

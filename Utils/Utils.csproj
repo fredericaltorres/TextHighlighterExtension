@@ -72,10 +72,6 @@
       <Project>{9908e6c8-15b6-47f7-ac26-33dc6f02ba18}</Project>
       <Name>CTxt</Name>
     </ProjectReference>
-    <ProjectReference Include="..\JSON.SyntaxValidator\JSON.SyntaxValidator\JSON.SyntaxValidator\JSON.SyntaxValidator.csproj">
-      <Project>{2e2aa82f-740b-41fd-855d-60618319f8cc}</Project>
-      <Name>JSON.SyntaxValidator</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

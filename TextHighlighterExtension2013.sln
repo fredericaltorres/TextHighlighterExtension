@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHighlighterExtension2013", "TextHighlighterExtension2012\TextHighlighterExtension2013.csproj", "{75B9A58C-F120-4CC5-AE3E-A256DC379543}"
 EndProject
@@ -9,15 +9,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTxtUnitTests2012", "CTxt\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTxt", "CTxt\CTxt.csproj", "{9908E6C8-15B6-47F7-AC26-33DC6F02BA18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON.SyntaxValidator", "JSON.SyntaxValidator\JSON.SyntaxValidator\JSON.SyntaxValidator\JSON.SyntaxValidator.csproj", "{2E2AA82F-740B-41FD-855D-60618319F8CC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonParserUnitTests2012", "JSON.SyntaxValidator\JSON.SyntaxValidator\JSON.SyntaxValidator\JSON.SyntaxValidatorUnitTests\JsonParserUnitTests2012.csproj", "{D166E7BD-018F-4721-A57C-7A295D8D22B5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHighlighterColorDefinition", "TextHighlighterColorDefinition\TextHighlighterColorDefinition.csproj", "{72A3BE8B-1113-4AAC-B086-C1C11FD06420}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHighlighterColorDefinitionUnitTests", "TextHighlighterColorDefinitionUnitTests\TextHighlighterColorDefinitionUnitTests.csproj", "{1A46E63F-BC39-4922-A8F0-B84F198EE5F5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{D73D6197-9304-4738-80C3-1FC8FDD404A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON.SyntaxValidator", "JSON.SyntaxValidator\JSON.SyntaxValidator.csproj", "{2E2AA82F-740B-41FD-855D-60618319F8CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonParserUnitTests2012", "JSON.SyntaxValidator\JSON.SyntaxValidatorUnitTests\JsonParserUnitTests2012.csproj", "{D166E7BD-018F-4721-A57C-7A295D8D22B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,14 +37,6 @@ Global
 		{9908E6C8-15B6-47F7-AC26-33DC6F02BA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9908E6C8-15B6-47F7-AC26-33DC6F02BA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9908E6C8-15B6-47F7-AC26-33DC6F02BA18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2E2AA82F-740B-41FD-855D-60618319F8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2E2AA82F-740B-41FD-855D-60618319F8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2E2AA82F-740B-41FD-855D-60618319F8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2E2AA82F-740B-41FD-855D-60618319F8CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D166E7BD-018F-4721-A57C-7A295D8D22B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D166E7BD-018F-4721-A57C-7A295D8D22B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D166E7BD-018F-4721-A57C-7A295D8D22B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D166E7BD-018F-4721-A57C-7A295D8D22B5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72A3BE8B-1113-4AAC-B086-C1C11FD06420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{72A3BE8B-1113-4AAC-B086-C1C11FD06420}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72A3BE8B-1113-4AAC-B086-C1C11FD06420}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +49,14 @@ Global
 		{D73D6197-9304-4738-80C3-1FC8FDD404A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D73D6197-9304-4738-80C3-1FC8FDD404A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D73D6197-9304-4738-80C3-1FC8FDD404A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2AA82F-740B-41FD-855D-60618319F8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2AA82F-740B-41FD-855D-60618319F8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2AA82F-740B-41FD-855D-60618319F8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2AA82F-740B-41FD-855D-60618319F8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D166E7BD-018F-4721-A57C-7A295D8D22B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D166E7BD-018F-4721-A57C-7A295D8D22B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D166E7BD-018F-4721-A57C-7A295D8D22B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D166E7BD-018F-4721-A57C-7A295D8D22B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
