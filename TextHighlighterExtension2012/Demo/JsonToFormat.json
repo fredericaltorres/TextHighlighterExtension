@@ -1,0 +1,95 @@
+﻿/*
+jsonB - Static Data Sample - USA State List
+Copyright (c) 2013 Frederic Torres. All rights reserved.
+
+THE FILE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER 
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+*/
+[
+{
+"name"				: "ALABAMA",
+"abbreviation"		: "AL",
+"capital"			: "Montgomery",
+"most-populous-city": "Birmingham",
+"population"		: "4708708",
+"square-miles"		: "52423",
+"time-zone-1"		: "CST (UTC-6)",
+"time-zone-2"		: "EST (UTC-5)",
+"dst"				: "YES",
+
+"toto" :  {
+"name"				: "ALABAMA",
+"abbreviation"		: "AL",
+"capital"			: "Montgomery",
+"most-populous-city": "Birmingham",
+"population"		: "4708708",
+"square-miles"		: "52423",
+"time-zone-1"		: "CST (UTC-6)",
+"time-zone-2"		: "EST (UTC-5)",
+"dst"				: "YES",
+
+"toto" :  {
+"name"				: "ALABAMA",
+"abbreviation"		: "AL",
+"capital"			: "Montgomery",
+"most-populous-city": "Birmingham",
+"population"		: "4708708",
+"square-miles"		: "52423",
+"time-zone-1"		: "CST (UTC-6)",
+"time-zone-2"		: "EST (UTC-5)",
+"dst"				: "YES"
+}
+}
+
+},
+{
+"name"				: "ALASKA",
+"abbreviation"		: "AK",
+"capital"			: "Juneau",
+"most-populous-city": "Anchorage",
+"population"		: "698473",
+"square-miles"		: "656425",
+"time-zone-1"		: "AKST (UTC-09)",
+"time-zone-2"		: "HST (UTC-10)",
+"dst"				: "YES"
+},
+{
+"name"				: "ARIZONA",
+"abbreviation"		: "AZ",
+"capital"			: "Phoenix",
+"most-populous-city": "Phoenix",
+"population"		: "6595778",
+"square-miles"		: "114006",
+"time-zone-1"		: "MT (UTC-07)",
+"time-zone-2"		: "",
+"dst"				: "NO"
+},
+{
+"name"				: "ARKANSAS",
+"abbreviation"		: "AR",
+"capital"			: "Little Rock",
+"most-populous-city": "Little Rock",
+"population"		: "2889450",
+"square-miles"		: "53182",
+"time-zone-1"		: "CST (UTC-6)",
+"time-zone-2"		: "",
+"dst"				: "YES"
+},
+{
+"name"				: "CALIFORNIA",
+"abbreviation"		: "CA",
+"capital"			: "Sacramento",
+"most-populous-city": "Los Angeles",
+"population"		: "36961664",
+"square-miles"		: "163707",
+"time-zone-1"		: "PT (UTC-8)",
+"time-zone-2"		: "",
+"dst"				: "YES"
+}
+ 
+]

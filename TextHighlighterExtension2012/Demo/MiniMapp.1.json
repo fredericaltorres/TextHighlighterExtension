@@ -1,0 +1,62 @@
+﻿/*
+	jsonB for Visual Studio
+	minimapp:true
+*/
+{ 
+	"Caption"	   : "{{name}}", /* Template defining the caption of the object */
+	"IDProperty"   : "name",	 /* The property to use as the identifier       */
+	"DisplayOrder" : "name,Property1,Property2,@New Section,Property3", /* List of properties to display. New section can be created by prefixing the caption by a @ */
+	"Sort"		   : "name",	 /* The property to use to sort the objects				   */
+	"GroupBy"	   : null,		 /* The property to use to group the objects into sections */
+	"AutoReload"   : null,		 /* Values: null, Data, MetaData, All. Define if the Data and or the MetaData need to be reloaded when the object is open */
+	"NewProperties": [			 /* Properties to add the first time or each time the object is open */
+		{
+			"Name"	   : "WebSite",
+			"Value"	   : "http://www.freebase.com/view/en/{{name.lower()}}",
+			"AutoReset": false /* Only add the property if it is not defined */
+		}
+	],
+	"Actions": [
+					{
+						  "Name"	   : "Start", /* Caption of the action */
+						  "Visible"	   : "$.VisitStatus=='Scheduled'", /* Condition evaluated to determine if the action is visible */
+						  "Method"	   : "Post", /* Http method */
+						  "Url"		   : "http://fredericaltorres.jsonbdemos.jit.su/patientvisits/update", /* Url */
+						  "Parameters" : "ID={{ID}}&StartTime={{StartTime}}&EndTime={{EndTime}}&VisitStatus=Started", /* Http body */
+						  "ContentType": "application/x-www-form-urlencoded", /* Http content type */
+						  "AutoPop"	   : true,      /* Close the object and go back to the parent after the action is executed */
+						  "AutoReload" : "Data",    /* Reload the data after the action is executed */
+						  "Success"	   : "",        /* No message in case of success */
+						  "Failure"	   : "Operation Failed\n{{$HttpResponse}}" /* Message in case of http call failure */
+					}
+	],
+	"Templates": [ /* This array can contains a list of text template to generate email content */
+		{
+			"Name" : "EMail",
+			"Value": [ "Check out this instrument {{name}} at {{WebSite}}" ] 
+		}
+	],
+	"Properties": [ /* Specify a type and other attribut to a property of an object */
+		{ "Name": "PROPERTY-NAME", "Attr": "READONLY", 											"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "BOOLEAN", 											"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "BOOLEAN,EDITABLE", 									"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "DATE",			"Format": "DAY DD-MM HH:mm", 		"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "DATE,EDITABLE", "Format": "DAY DD-MM HH:mm", 		"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "TIME,EDITABLE",  									"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "TIME,EDITABLE", 									"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "MONOSELECT,EDITABLE",  "Values": [ "A", "B", "C" ], "Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "MULTISELECT,EDITABLE", "Values": [ "A", "B", "C" ], "Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "PHONE", 											"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "EMAIL", 											"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "VIDEO", 											"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "GEOLOCATION", 										"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "EDITABLE", 											"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "EDITABLE", "Range": [0, 100], 						"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "IMAGE", 											"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "HTML", 												"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "TEXT", 												"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "AMOUNT", 											"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "AMOUNT,EDITABLE", 									"Caption": "PROPERTY-CAPTION" },
+		{ "Name": "PROPERTY-NAME", "Attr": "SMS", 												"Caption": "PROPERTY-CAPTION" }
+	]
+}

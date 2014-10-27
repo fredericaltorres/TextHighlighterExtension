@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="d0a6e040-9636-4b7e-a5c6-5a53591d293a"
+              Version="3.7" Language="en-US" Publisher="Frederic Torres" />
+    <DisplayName>TextHighlighterExtension2013</DisplayName>
+    <Description xml:space="preserve">.json, .bat, .cmd, .log, .txt, .ini, Log4j.properties, bash syntax Highlighting with intellisense for Visual Studio 2012 and 2013.</Description>
+    <License>License.txt</License>
+    <GettingStartedGuide>http://visualstudiogallery.msdn.microsoft.com/a6932e93-c163-45d6-9992-2fca1b1fe4fd</GettingStartedGuide>
+    <ReleaseNotes>ReleaseNotes.txt</ReleaseNotes>
+    <Icon>ExtensionIcon.jpg</Icon>
+    <PreviewImage>ExtensionIcon.1.jpg</PreviewImage>
+    <Tags> bat batch cmd log txt json bash Log4j.properties extension syntax highlighting</Tags>
+  </Metadata>
+  <Installation InstalledByMsi="false" AllUsers="true">
+    <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[12.0,13.0)" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Premium" />
+    <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Ultimate" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    <Dependency Id="Microsoft.VisualStudio.MPF.12.0" DisplayName="Visual Studio MPF 12.0" d:Source="Installed" Version="[12.0]" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+  </Assets>
+</PackageManifest>

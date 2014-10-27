@@ -1,0 +1,237 @@
+﻿/* ok les filles "use relax" */
+[
+  {
+	"ID": 0, 
+	"Bool": true,
+	"CustomerState" : null, // aaa
+	"CompanyName": "Ibma",
+	"CustomerName": "Marion, Erickson",
+	"EMail": "merickson@ibma.com",
+	"Phone": "1-536-623-6332",
+	"Reason": "Sale", 
+	"Comment": "No comment",
+	"DateTime": "2012-10-08T06:52:00Z", 
+	"CallBacked": "No",
+	"Location" : {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "6258 Ambury St",
+	  "Zip": "92114-6717",
+	  "State": "CA",
+	  "City": "San Diego"
+	}
+  },
+  {
+	"ID": 1,
+	"CompanyName": "Gicrosoft",
+	"CustomerName": "Robin, Wise",
+	"EMail": "merickson@gicrosoft.com",
+	"Phone": "1-444-201-0050",
+	"Reason": "Support",
+	"Comment": "No comment",
+	"DateTime": "2012-10-09T07:01:00Z",
+	"CallBacked": "No",
+	"Location": {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "8308 Fenway Rd",
+	  "Zip": "20817-2733",
+	  "State": "MD",
+	  "City": "San Diego"
+	}
+  },
+  {
+	"ID": 2,
+	"CompanyName": "Moogle",
+	"CustomerName": "Hubert, Maxwell",
+	"EMail": "merickson@moogle.com",
+	"Phone": "   1-878-334-0256",
+	"Reason": "Contract",
+	"Comment": "No comment",
+	"DateTime": "2012-10-10T08:02:00Z",
+	"CallBacked": "No",
+	"Location": {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "3315 W Greenway Rd",
+	  "Zip": "85053-380",
+	  "State": "AZ",
+	  "City": "Phoenix"
+	}
+  },
+  {
+	"ID": 3,
+	"CompanyName": "BadApple",
+	"CustomerName": "Edmund, Hunt",
+	"EMail": "merickson@badapple.com",
+	"Phone": "1-467-760-1077",
+	"Reason": "Unknown",
+	"Comment": "No comment",
+	"DateTime": "2012-10-11T09:02:00Z",
+	"CallBacked": "No",
+	"Location": {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "1635 Camile Pl",
+	  "Zip": "92703-4401",
+	  "State": "CA",
+	  "City": "Santa Ana"
+	}
+  },
+  {
+	"ID": 4,
+	"CompanyName": "Ibma",
+	"CustomerName": "Marsha, Frank",
+	"EMail": "merickson@ibma.com",
+	"Phone": "1-067-330-4557",
+	"Reason": "Sale",
+	"Comment": "No comment",
+	"DateTime": "2012-10-12T10:04:00Z",
+	"CallBacked": "No",
+	"Location": {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "121 Spring Garden Dr",
+	  "Zip": "78634-4015",
+	  "State": "TX",
+	  "City": "Hutto"
+	}
+  },
+  {
+	"ID": 5,
+	"CompanyName": "Gicrosoft",
+	"CustomerName": "Jason, Fernandez",
+	"EMail": "merickson@gicrosoft.com",
+	"Phone": "1-327-817-4327",
+	"Reason": "Support",
+	"Comment": "No comment",
+	"DateTime": "2012-09-13T11:04:00Z",
+	"CallBacked": "No",
+	"Location": {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "753 Stillwater Ave, Ste 5",
+	  "Zip": "04401-3633",
+	  "State": "ME",
+	  "City": "San Diego"
+	}
+  },
+  {
+	"ID": 6,
+	"CompanyName": "Moogle",
+	"CustomerName": "Ian, Sharp",
+	"EMail": "merickson@moogle.com",
+	"Phone": "1-346-577-6658",
+	"Reason": "Contract",
+	"Comment": "No comment",
+	"DateTime": "2012-09-14T12:06:00Z",
+	"CallBacked": "No",
+	"Location": {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "6258 Amesbury St",
+	  "Zip": "92114-6717",
+	  "State": "CA",
+	  "City": "Bangor"
+	}
+  },
+  {
+	"ID": 7,
+	"CompanyName": "BadApple",
+	"CustomerName": "Opal, Fletcher",
+	"EMail": "merickson@badapple.com",
+	"Phone": "1-081-682-0583",
+	"Reason": "Unknown",
+	"Comment": "No comment",
+	"DateTime": "2012-09-15T13:07:00Z",
+	"CallBacked": "No",
+	"Location": {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "7154 Edinger Ave",
+	  "Zip": "92114-6717",
+	  "State": "CA",
+	  "City": "San Diego"
+	}
+  },
+  {
+	"ID": 8,
+	"CompanyName": "Ibma",
+	"CustomerName": "Wade, Strickland",
+	"EMail": "merickson@ibma.com",
+	"Phone": "1-046-632-8758",
+	"Reason": "Sale",
+	"Comment": "No comment",
+	"DateTime": "2012-09-16T14:08:00Z",
+	"CallBacked": "No",
+	"Location": {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "6258 Amesbury St",
+	  "Zip": "92647-3505",
+	  "State": "CA",
+	  "City": "San Diego"
+	}
+  },
+  {
+	"ID": 9,
+	"CompanyName": "Gicrosoft",
+	"CustomerName": "Audrey, Horton",
+	"EMail": "merickson@gicrosoft.com",
+	"Phone": "1-567-045-8144",
+	"Reason": "Support",
+	"Comment": "No comment",
+	"DateTime": "2012-08-17T15:09:00Z",
+	"CallBacked": "No",
+	"Location": {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "6258 Amesbury St",
+	  "Zip": "92114-6717",
+	  "State": "CA",
+	  "City": "Huntington Beach"
+	}
+  },
+  {
+	"ID": 10,
+	"CompanyName": "Moogle",
+	"CustomerName": "Jan, Flores",
+	"EMail": "merickson@moogle.com",
+	"Phone": "1-270-573-0008",
+	"Reason": "Contract",
+	"Comment": "No comment",
+	"DateTime": "2012-08-18T15:10:00Z",
+	"CallBacked": "No",
+	"Location": {
+	  "Latitude": 47.64,
+	  "Longitude": -122.129
+	},
+	"Address": {
+	  "Street": "3607 Golfview Dr, Mechanicsburg",
+	  "Zip": "17050-2242",
+	  "State": "PA",
+	  "City": "Mechanicsburg",
+	  "aaa" : { "a" : [1,2,"ok", "a", "a", "a"],  }, 
+	}
+  }
+]

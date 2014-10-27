@@ -1,0 +1,41 @@
+gxt extension:graph
+########################################################################################################################
+###
+### A Graph modeling language in GXT format for the GXTPackage for VS 2010
+###
+###		(C) Frederic Torres 2010 - http://www.frederictorres.net
+###
+###		THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY
+###		IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
+###
+########################################################################################################################
+Graph:
+    ID:MyGraph
+    Objects:
+        Circle:
+            Point:
+                X:11        
+        Rectangle:
+            Width:1
+            Height:11
+            Point:
+                X:1
+                Y:1             
+        Rectangle:
+            Point:
+                X:0
+                Y:0
+            Width:100
+            Height:100
+        Circle:
+            Point:
+                X:50
+                Y:50
+            Ray:40
+        Line:
+            Point:
+                X:0
+                Y:0
+            Point:
+                X:100
+                Y:0

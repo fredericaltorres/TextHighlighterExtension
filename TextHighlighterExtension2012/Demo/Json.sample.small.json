@@ -1,0 +1,11 @@
+﻿/*
+    JSON for Visual Studio
+*/
+{
+    "LastName"      : "Torres",
+    "FirstName"     : "Frederic",
+    "Age"           : 48,
+    "BirthDate"     : "1964-12-11T00:00:00Z",
+    "Male"          : true,
+    "Other"         : null
+}

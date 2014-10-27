@@ -1,0 +1,22 @@
+gxt extension:tdl
+########################################################################################################################
+###
+### TODO list in GXT format for the GXTPackage for VS 2010
+###
+###
+###     (C) Frederic Torres 2010 - http://www.frederictorres.net
+###
+###     THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY
+###     IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.
+###
+########################################################################################################################
+TaskList:
+    Task:
+        Description:This is my task
+        Priority:High
+        Status:InProcess
+        By:2010-08-31 Tuesday
+        Owner:Fred
+    Reminder:
+        Description:Reminde me to forget to remember this
+        By:2010-08-26 Thursday

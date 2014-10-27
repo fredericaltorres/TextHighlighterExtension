@@ -1,0 +1,43 @@
+Urls:This is the answer
+- https://wiki.eng.vmware.com/VCAC/Releases/Pacman/FuncSpec/Deployment
+- https://wiki.eng.vmware.com/VCAC/Releases/Pacman/TechSpec/Deployment
+
+Walk Thru: This is a description of the vCAC (v Pacman) install
+
+	VA Deployment:(vApp Deployment)
+		- Give a url: http://111.111.111.111/Management
+		- Windows Deployment: ok les filles
+			- RDP and Login to Windows
+			- Browse to VA Web App
+			- Browse to http://111.111.111.111/Management
+				- Username/Password - Dedicated InstallUser/Password
+				- Page Offer
+					- Download Installers
+					- Run Steps (*)
+				Options:
+					(1) Download Installer
+						[x] Manager Service
+						[x] DEM/DEO
+						[x] Agent
+					(2) Wizard
+
+AAAA: aaa
+aaaaaaaaa
+	AAAA: aaaa
+	aaaaaaaaaa
+		AAAA: deewqeqw
+		aaaaaaaaaa
+			AAAA: aaaa
+			aaaaaaaaaa
+
+Class: Point
+    int:x
+    int:y
+
+Class: Points
+    inherit List:Point
+
+Function: Draw
+    Parameter: Points point
+        Code:1,2,34
+            Alea: Renonce le mal

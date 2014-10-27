@@ -1,0 +1,19 @@
+﻿/* "use relax" */
+{
+    CTXT : {
+        Levels : [
+            /* The order of the rules matter because of the first spaces need be evaluated for the more precise
+              to the less precise.
+           */            
+            { Expression: "(?<Space>            |\\t\\t\\t)(?<Before>.*)(?<Operator>:)(?<After>.*)",      BeforeColor : "SaddleBrown",  AfterColor : "bold.Chocolate"  },
+            { Expression: "(?<Space>        |\\t\\t)(?<Before>.*)(?<Operator>:)(?<After>.*)",             BeforeColor : "DarkRed",      AfterColor : "bold.Crimson"    },
+            { Expression: "(?<Space>    |\\t)(?<Before>.*)(?<Operator>:)(?<After>.*)",                    BeforeColor : "DarkGreen",    AfterColor : "bold.Chartreuse" },   
+            { Expression: "(?<Space>)(?<Before>.*)(?<Operator>:)(?<After>.*)",                            BeforeColor : "DarkBlue",     AfterColor : "bold.Blue"       },
+
+            { Expression: "(?<Space>            |\\t\\t\\t)(?<After>.*)",      AfterColor : "SaddleBrown"  },
+            { Expression: "(?<Space>        |\\t\\t)(?<After>.*)",             AfterColor : "DarkRed"      },
+            { Expression: "(?<Space>    |\\t)(?<After>.*)",                    AfterColor : "DarkGreen"    },   
+            { Expression: "(?<Space>)(?<After>.*)",                            AfterColor : "DarkBlue"     },
+        ]
+    }
+}

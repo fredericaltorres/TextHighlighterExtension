@@ -1,0 +1,125 @@
+﻿/*
+License - TextHighLighterExtension v 2.x - Copyright (c) 2010,2012,2013 Frederic Torres
+Text syntax Highlighting for Visual Studio 2010, 2012 (.txt, .log, .bat, .ini, .json)
+
+LICENSE
+  
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+  
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+  
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+  
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  See System.Windows.Media.Colors for the list of colors available
+  See url below for color samples
+    http://msdn.microsoft.com/en-us/library/system.windows.media.colors.aspx
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+  AliceBlue, AntiqueWhite, Aqua, Aquamarine, Azure, Beige, Bisque, Black, BlanchedAlmond, Blue, 
+  BlueViolet, Brown, BurlyWood, CadetBlue, Chartreuse, Chocolate, Coral, CornflowerBlue, Cornsilk, 
+  Crimson, Cyan, DarkBlue, DarkCyan, DarkGoldenrod, DarkGray, DarkGreen, DarkKhaki, DarkMagenta, 
+  DarkOliveGreen, DarkOrange, DarkOrchid, DarkRed, DarkSalmon, DarkSeaGreen, DarkSlateBlue, 
+  DarkSlateGray, DarkTurquoise, DarkViolet, DeepPink, DeepSkyBlue, DimGray, DodgerBlue, 
+  Firebrick, FloralWhite, ForestGreen, Fuchsia, Gainsboro, GhostWhite, Gold, Goldenrod, Gray, 
+  Green, GreenYellow, Honeydew, HotPink, IndianRed, Indigo, Ivory, Khaki, Lavender, LavenderBlush, 
+  LawnGreen, LemonChiffon, LightBlue, LightCoral, LightCyan, LightGoldenrodYellow, LightGray, 
+  LightGreen, LightPink, LightSalmon, LightSeaGreen, LightSkyBlue, LightSlateGray, LightSteelBlue, 
+  LightYellow, Lime, LimeGreen, Linen, Magenta, Maroon, MediumAquamarine, MediumBlue, MediumOrchid, 
+  MediumPurple, MediumSeaGreen, MediumSlateBlue, MediumSpringGreen, MediumTurquoise, MediumVioletRed, 
+  MidnightBlue, MintCream, MistyRose, Moccasin, NavajoWhite, Navy, OldLace, Olive, OliveDrab, Orange, 
+  OrangeRed, Orchid, PaleGoldenrod, PaleGreen, PaleTurquoise, PaleVioletRed, PapayaWhip, PeachPuff, 
+  Peru, Pink, Plum, PowderBlue, Purple, Red, RosyBrown, RoyalBlue, SaddleBrown, Salmon, SandyBrown, 
+  SeaGreen, SeaShell, Sienna, Silver, SkyBlue, SlateBlue, SlateGray, Snow, SpringGreen, SteelBlue, 
+  Tan, Teal, Thistle, Tomato, Transparent, Turquoise, Violet, Wheat, White, WhiteSmoke, Yellow, YellowGreen
+  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+  "use relax"
+*/
+{
+    "$Version" : "3.0",
+    $BackgroundTheme : "Dark",  
+    JSON : {
+
+        "Punctation"    : "bold.Aqua"           ,  /* { } : ,  */
+        "Id"            : "LightSkyBlue"        , 
+        "Comment"       : "italic.LawnGreen"    ,   
+        "String"        : "bold.DeepSkyBlue"    ,   
+        "Number"        : "Tomato"              ,   
+        "Null"          : "OrangeRed"           ,   
+        "Boolean"       : "OrangeRed"           , 
+        "Date"          : "Orange"              ,  
+        "Default"       : "NavajoWhite"         ,                    
+    },
+    INI : {
+
+        Variable      : "bold.Peru"         ,
+        Comment       : "SeaGreen"          ,
+        Section       : "italic.Orange"     ,
+        Equal         : "Orange"            ,
+        Value         : "LightCoral"        ,
+        Default       : "White"             ,
+    },
+    BAT : {
+
+        "Keyword"       : "bold.LightBlue"           ,  /* Echo, Copy any Bat keyword */
+        "Comment"       : "italic.MediumSpringGreen" ,  /* rem                        */
+        "Flag"          : "Turquoise"                ,  /* /b /s                      */
+        "Label"         : "DarkOrange"               ,  /* label                      */
+        "EnvVar"        : "bolditalic.DarkSalmon"    ,  /* %TEMP%                     */
+        "Redirection"   : "Red"                      ,  /* > and >>                   */
+		"Punctuation"   : "Red",
+        "Parameter"     : "DarkKhaki"                ,  /* net START                  */
+        "String"        : "LightSkyBlue"             ,   
+        "Default"       : "NavajoWhite"
+    },
+    TXT: { /* Color definition for .txt file */
+
+        "\\[WARNING\\]"            : "DarkGoldenrod",     
+        "\\[ERROR\\].*Minor"       : "Salmon"       ,
+        "\\[ERROR\\]"              : "bold.Red"     ,
+        "\\[INFO\\]"               : "LightBlue"    ,
+        "\\[PASSED\\]"             : "Green"        ,
+        ""                         : "NavajoWhite"  , /* The last item is the default color */
+    },
+    LOG: { /* Color definition for .log file */
+      
+        /* Other log color coding */
+        "\\[WARNING\\]"              : "DarkGoldenrod",
+        "\\[ERROR\\].*Minor"         : "Salmon"       ,
+        "\\[ERROR\\]"                : "Red"          ,
+        "\\[INFO\\]"                 : "LightBlue"    ,
+        "\\[PASSED\\]"               : "Green"        ,
+        ""                           : "NavajoWhite"  , /* The last item is the default color */
+    },
+    /* Experimental text extension */
+    CTXT : {
+
+        Levels : [
+            /* The order of the rules matter because of the first spaces need be evaluated from the more precise
+              to the less precise.
+           */
+            { Expression: "(?<Space>            |\\t\\t\\t)(?<Before>.*)(?<Operator>:)(?<After>.*)",      BeforeColor : "Salmon",           AfterColor : "LightSalmon"          },   
+            { Expression: "(?<Space>        |\\t\\t)(?<Before>.*)(?<Operator>:)(?<After>.*)",             BeforeColor : "MediumSeaGreen",   AfterColor : "LimeGreen"            },
+            { Expression: "(?<Space>    |\\t)(?<Before>.*)(?<Operator>:)(?<After>.*)",                    BeforeColor : "Sienna",           AfterColor : "Chocolate"            },   
+            { Expression: "(?<Space>)(?<Before>.*)(?<Operator>:)(?<After>.*)",                            BeforeColor : "PowderBlue",       AfterColor : "CadetBlue"            },
+            
+            { Expression: "(?<Space>            |\\t\\t\\t)(?<After>.*)",                                 AfterColor : "LightSalmon"                },
+            { Expression: "(?<Space>        |\\t\\t)(?<After>.*)",                                        AfterColor : "LimeGreen"                  },
+            { Expression: "(?<Space>    |\\t)(?<After>.*)",                                               AfterColor : "Chocolate"                  },   
+            { Expression: "(?<Space>)(?<After>.*)",                                                       AfterColor : "CadetBlue"                  },
+        ],
+        "Default" : "NavajoWhite",
+    }
+}
+

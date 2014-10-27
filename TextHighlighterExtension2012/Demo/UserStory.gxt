@@ -1,0 +1,35 @@
+gxt extension:userstory
+########################################################################################################################
+### this is my comment
+########################################################################################################################
+UserStory:
+    ID:c8bc375c-4e07-4db1-b819-e9774b69acec
+    AsA:Account owner
+    IWant:To check my balance account
+    SoThat:I can keep a daily balance 24 hours a days
+    Priority:3
+    Estimate:1d
+    Created:2010-08-31
+    Scenario:
+        Description:Account balance is negative
+        Given:The account balance is below 0
+        And:Their account
+        Then:lksdaj sadjlskad jsaklj
+    Scenario:
+        Description:klfdjd fjd fdlkfjd slkj
+        When:djkl djksad sajdlkajsd jsdksjad ljsaldkjaskl j
+        And:dfjhfhdskfhdhfdskjfhsdkjfhksd 
+
+UserStory:
+    ID:65710657-479d-4b15-ba4d-2b8348b6b1f5
+    Created:2010-09-02
+    AsA:dsdsds
+    IWant:asldjkas djsla d
+    SoThat:aslkdjsa djslk 
+    Priority:3
+    Estimate:1d
+    Scenario:
+        Given:aslkdja sdjsa ldjsa
+        And:aksdjas kldjlska 
+        And:sqkldjslakj
+        Then:aslkdjaslkdjsldjslak

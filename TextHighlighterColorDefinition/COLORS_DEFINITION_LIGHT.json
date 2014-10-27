@@ -1,0 +1,103 @@
+﻿{
+  "$Version": "3.0",
+  "$BackgroundTheme": "Light",
+  "PS1": {
+    "Keyword": "Blue",
+    "Command": "bold.DarkCyan",
+    "Comment": "italic.Green",
+    "Parameter": "italic.Red",
+    "Variable": "bolditalic.DarkSlateBlue",
+    "String": "Firebrick",
+    "Punctuation": "Black",
+    "Default": "Gray"
+  },
+  "JSON": {
+    "Punctation": "Blue",
+    "Id": "Navy",
+    "Comment": "italic.Green",
+    "String": "RoyalBlue",
+    "Number": "Red",
+    "Null": "bold.OrangeRed",
+    "Boolean": "bold.DarkRed",
+    "Date": "SaddleBrown",
+    "Default": "NavajoWhite"
+  },
+  "INI": {
+    "Variable": "bold.Navy",
+    "Comment": "italic.Green",
+    "Section": "italic.Firebrick",
+    "Equal": "DarkSlateGray",
+    "Value": "RoyalBlue",
+    "Default": "Black"
+  },
+  "BAT": {
+    "Keyword": "bold.Navy",
+    "Comment": "italic.Green",
+    "Flag": "Brown",
+    "Label": "bold.DarkMagenta",
+    "EnvVar": "bolditalic.RoyalBlue",
+    "Redirection": "Tomato",
+	"Punctuation": "Tomato",
+    "Parameter": "CornflowerBlue",
+    "String": "MidnightBlue",
+    "Default": "DarkSlateGray"
+  },
+  "TXT": {
+    "\\[WARNING\\]": "DarkGoldenrod",
+    "\\[ERROR\\]": "Red",
+    "\\[INFO\\]": "Blue",
+    "\\[PASSED\\]": "Green",
+    "": "Black"
+  },
+  "LOG": {
+    "\\[WARNING\\]": "DarkGoldenrod",
+    "\\[ERROR\\]": "Red",
+    "\\[INFO\\]": "Blue",
+    "\\[PASSED\\]": "Green",
+    "": "Black"
+  },
+  "CTXT": {
+    "Levels": [
+      /* The order of the rules matter because of the first spaces need be evaluated from the more precise
+              to the less precise.
+           */
+      {
+        "Expression": "(?<Space>            |\\t\\t\\t)(?<Before>.*)(?<Operator>:)(?<After>.*)",
+        "BeforeColor": "Salmon",
+        "AfterColor": "LightSalmon"
+      },
+      {
+        "Expression": "(?<Space>        |\\t\\t)(?<Before>.*)(?<Operator>:)(?<After>.*)",
+        "BeforeColor": "MediumSeaGreen",
+        "AfterColor": "LimeGreen"
+      },
+      {
+        "Expression": "(?<Space>    |\\t)(?<Before>.*)(?<Operator>:)(?<After>.*)",
+        "BeforeColor": "Sienna",
+        "AfterColor": "Chocolate"
+      },
+      {
+        "Expression": "(?<Space>)(?<Before>.*)(?<Operator>:)(?<After>.*)",
+        "BeforeColor": "PowderBlue",
+        "AfterColor": "CadetBlue"
+      },
+      {
+        "Expression": "(?<Space>            |\\t\\t\\t)(?<After>.*)",
+        "AfterColor": "LightSalmon"
+      },
+      {
+        "Expression": "(?<Space>        |\\t\\t)(?<After>.*)",
+        "AfterColor": "LimeGreen"
+      },
+      {
+        "Expression": "(?<Space>    |\\t)(?<After>.*)",
+        "AfterColor": "Chocolate"
+      },
+      {
+        "Expression": "(?<Space>)(?<After>.*)",
+        "AfterColor": "CadetBlue"
+      }
+    ],
+    "Default": "NavajoWhite"
+  }
+}

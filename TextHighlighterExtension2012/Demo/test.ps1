@@ -1,0 +1,1 @@
+﻿Where-Object { $_.Name -match "Microsoft SQL Server.*" }

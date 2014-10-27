@@ -1,0 +1,13 @@
+﻿
+Bug:
+    - Add <# #> for power shell
+    - Intellisense is broken for BAT at least in release mode check the file isthere
+
+TXT and Log: 
+    - Add a way add and remove rule [done]
+    - Add a way to re order rule [done]
+
+Install:
+    - run code at install time to ask for the background color theme
+
+BAT: Add Run Batch in console app and output result in watch window

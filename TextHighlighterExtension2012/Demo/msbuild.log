@@ -1,0 +1,381 @@
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 10/9/2010 1:13:52 AM.
+Project "U:\Build.xml" on node 1 (BuildAll target(s)).
+Project "U:\Build.xml" (1) is building "U:\MDI\lvMDI.sln" (2) on node 1 (Clean target(s)).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "U:\MDI\lvMDI.sln" (2) is building "U:\MDI\lvMDI.csproj.metaproj" (3) on node 1 (Clean target(s)).
+Project "U:\MDI\lvMDI.csproj.metaproj" (3) is building "U:\PlugIns\DefaultPlugIns\DefaultPlugIns.csproj" (4) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "U:\PlugIns\DefaultPlugIns\bin\Debug\DefaultPlugIns.dll".
+  Deleting file "U:\PlugIns\DefaultPlugIns\bin\Debug\DefaultPlugIns.pdb".
+  Deleting file "U:\PlugIns\DefaultPlugIns\obj\Debug\LogViewer.net.PlugIns.frmFindText.resources".
+  Deleting file "U:\PlugIns\DefaultPlugIns\obj\Debug\LogViewer.net.PlugIns.frmTextLineViewer.resources".
+  Deleting file "U:\PlugIns\DefaultPlugIns\obj\Debug\LogViewer.net.PlugIns.frmTabularLineViewer.resources".
+  Deleting file "U:\PlugIns\DefaultPlugIns\obj\Debug\GenerateResource-ResGen.read.1.tlog".
+  Deleting file "U:\PlugIns\DefaultPlugIns\obj\Debug\GenerateResource-ResGen.write.1.tlog".
+  Deleting file "U:\PlugIns\DefaultPlugIns\obj\Debug\DefaultPlugIns.dll".
+  Deleting file "U:\PlugIns\DefaultPlugIns\obj\Debug\DefaultPlugIns.pdb".
+Done Building Project "U:\PlugIns\DefaultPlugIns\DefaultPlugIns.csproj" (Clean target(s)).
+Project "U:\MDI\lvMDI.csproj.metaproj" (3) is building "U:\MDI\lvMDI.csproj" (5) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "U:\MDI\bin\Debug\fLogViewer.net.exe".
+  Deleting file "U:\MDI\bin\Debug\fLogViewer.net.pdb".
+  Deleting file "U:\MDI\bin\Debug\ICSharpCode.SharpZipLib.dll".
+  Deleting file "U:\MDI\bin\Debug\IronPython.dll".
+  Deleting file "U:\MDI\bin\Debug\IronPython.Modules.dll".
+  Deleting file "U:\MDI\bin\Debug\Microsoft.Scripting.Core.dll".
+  Deleting file "U:\MDI\bin\Debug\Microsoft.Scripting.dll".
+  Deleting file "U:\MDI\bin\Debug\Microsoft.Scripting.ExtensionAttribute.dll".
+  Deleting file "U:\MDI\bin\Debug\Microsoft.Dynamic.dll".
+  Deleting file "U:\MDI\obj\Debug\ResolveAssemblyReference.cache".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.CListView.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.FormInputBox.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmAbout.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmColorsEdit.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmDebug.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmEventViewerMonitor.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmFilter.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmGotoLine.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmLicense.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmLog.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmMDI.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmOptions.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmSplash.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.frmURL.resources".
+  Deleting file "U:\MDI\obj\Debug\LogViewer.Net.Properties.Resources.resources".
+  Deleting file "U:\MDI\obj\Debug\GenerateResource-ResGen.read.1.tlog".
+  Deleting file "U:\MDI\obj\Debug\GenerateResource-ResGen.write.1.tlog".
+  Deleting file "U:\MDI\obj\Debug\fLogViewer.net.exe".
+  Deleting file "U:\MDI\obj\Debug\fLogViewer.net.pdb".
+Done Building Project "U:\MDI\lvMDI.csproj" (Clean target(s)).
+Done Building Project "U:\MDI\lvMDI.csproj.metaproj" (Clean target(s)).
+Project "U:\MDI\lvMDI.sln" (2) is building "U:\Utility\FileUpdater\FileUpdater.csproj" (6) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "U:\Utility\Bin\FileUpdater.exe".
+  Deleting file "U:\Utility\Bin\FileUpdater.pdb".
+  Deleting file "U:\Utility\FileUpdater\obj\Debug\ResolveAssemblyReference.cache".
+  Deleting file "U:\Utility\FileUpdater\obj\Debug\FileUpdater.exe".
+  Deleting file "U:\Utility\FileUpdater\obj\Debug\FileUpdater.pdb".
+Project "U:\Utility\FileUpdater\FileUpdater.csproj" (6) is building "U:\lvEngine\lvEngine.csproj" (7) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "U:\lvEngine\bin\Debug\lvEngine.dll.config".
+  Deleting file "U:\lvEngine\bin\Debug\lvEngine.dll".
+  Deleting file "U:\lvEngine\bin\Debug\lvEngine.pdb".
+  Deleting file "U:\lvEngine\bin\Debug\ICSharpCode.SharpZipLib.dll".
+  Deleting file "U:\lvEngine\bin\Debug\IronPython.dll".
+  Deleting file "U:\lvEngine\bin\Debug\IronPython.Modules.dll".
+  Deleting file "U:\lvEngine\bin\Debug\Microsoft.Dynamic.dll".
+  Deleting file "U:\lvEngine\bin\Debug\Microsoft.Scripting.Core.dll".
+  Deleting file "U:\lvEngine\bin\Debug\Microsoft.Scripting.dll".
+  Deleting file "U:\lvEngine\bin\Debug\Microsoft.Scripting.ExtensionAttribute.dll".
+  Deleting file "U:\lvEngine\obj\Debug\lvEngine.dll".
+  Deleting file "U:\lvEngine\obj\Debug\lvEngine.pdb".
+Done Building Project "U:\lvEngine\lvEngine.csproj" (Clean target(s)).
+Done Building Project "U:\Utility\FileUpdater\FileUpdater.csproj" (Clean target(s)).
+Project "U:\MDI\lvMDI.sln" (2) is building "U:\Utility\GenerateVersionVbs\GenerateVersionVbs.csproj" (8) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "U:\Utility\GenerateVersionVbs\bin\Debug\GenerateVersionVbs.exe".
+  Deleting file "U:\Utility\GenerateVersionVbs\bin\Debug\GenerateVersionVbs.pdb".
+  Deleting file "U:\Utility\GenerateVersionVbs\obj\Debug\GenerateVersionVbs.exe".
+  Deleting file "U:\Utility\GenerateVersionVbs\obj\Debug\GenerateVersionVbs.pdb".
+Done Building Project "U:\Utility\GenerateVersionVbs\GenerateVersionVbs.csproj" (Clean target(s)).
+Project "U:\MDI\lvMDI.sln" (2) is building "U:\ZipFile\ZipFile.csproj" (9) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "U:\ZipFile\bin\Debug\ZipFile.exe".
+  Deleting file "U:\ZipFile\bin\Debug\ZipFile.pdb".
+  Deleting file "U:\ZipFile\bin\Debug\ICSharpCode.SharpZipLib.dll".
+  Deleting file "U:\ZipFile\obj\Debug\ZipFile.exe".
+  Deleting file "U:\ZipFile\obj\Debug\ZipFile.pdb".
+Done Building Project "U:\ZipFile\ZipFile.csproj" (Clean target(s)).
+Project "U:\MDI\lvMDI.sln" (2) is building "U:\IronPython\DynamicObjects\DynamicObjects\DynamicObjects.csproj" (10) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\bin\Debug\DynamicObjects.exe".
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\bin\Debug\DynamicObjects.pdb".
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\bin\Debug\DefaultPlugIns.dll".
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\bin\Debug\IronPython.dll".
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\bin\Debug\IronPython.Modules.dll".
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\bin\Debug\Microsoft.Dynamic.dll".
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\bin\Debug\Microsoft.Scripting.Core.dll".
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\bin\Debug\Microsoft.Scripting.dll".
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\bin\Debug\Microsoft.Scripting.ExtensionAttribute.dll".
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\obj\Debug\DynamicObjects.exe".
+  Deleting file "U:\IronPython\DynamicObjects\DynamicObjects\obj\Debug\DynamicObjects.pdb".
+Done Building Project "U:\IronPython\DynamicObjects\DynamicObjects\DynamicObjects.csproj" (Clean target(s)).
+Project "U:\MDI\lvMDI.sln" (2) is building "U:\UnitTests\UnitTests.csproj" (11) on node 1 (Clean target(s)).
+CoreClean:
+  Deleting file "U:\UnitTests\bin\Debug\UnitTests.dll".
+  Deleting file "U:\UnitTests\bin\Debug\UnitTests.pdb".
+  Deleting file "U:\UnitTests\bin\Debug\DefaultPlugIns.dll".
+  Deleting file "U:\UnitTests\bin\Debug\ICSharpCode.SharpZipLib.dll".
+  Deleting file "U:\UnitTests\bin\Debug\IronPython.dll".
+  Deleting file "U:\UnitTests\bin\Debug\IronPython.Modules.dll".
+  Deleting file "U:\UnitTests\bin\Debug\lvEngine.dll".
+  Deleting file "U:\UnitTests\bin\Debug\Microsoft.Dynamic.dll".
+  Deleting file "U:\UnitTests\bin\Debug\Microsoft.Scripting.Core.dll".
+  Deleting file "U:\UnitTests\bin\Debug\Microsoft.Scripting.dll".
+  Deleting file "U:\UnitTests\bin\Debug\Microsoft.Scripting.ExtensionAttribute.dll".
+  Deleting file "U:\UnitTests\bin\Debug\lvEngine.pdb".
+  Deleting file "U:\UnitTests\obj\Debug\ResolveAssemblyReference.cache".
+  Deleting file "U:\UnitTests\obj\Debug\UnitTests.dll".
+  Deleting file "U:\UnitTests\obj\Debug\UnitTests.pdb".
+Done Building Project "U:\UnitTests\UnitTests.csproj" (Clean target(s)).
+Done Building Project "U:\MDI\lvMDI.sln" (Clean target(s)).
+CleanProjects:
+  Directory "U:\MDI\TestResults" doesn't exist. Skipping.
+  Removing directory "U:\TestResults".
+  rd /s /q "U:\TestResults"
+  Removing directory "U:\IronPython\DynamicObjects\DynamicObjects\bin".
+  rd /s /q "U:\IronPython\DynamicObjects\DynamicObjects\bin"
+  Removing directory "U:\MDI\bin\Debug".
+  rd /s /q "U:\MDI\bin\Debug"
+  Removing directory "U:\MDI\obj".
+  rd /s /q "U:\MDI\obj"
+  Removing directory "U:\lvEngine\obj".
+  rd /s /q "U:\lvEngine\obj"
+  Deleting file "U:\Web\Exe\Debug\fLogViewer.net.exe".
+  del "U:\Web\Exe\Debug\fLogViewer.net.exe"
+  Deleting file "U:\Web\Exe\Debug\fLogViewer.net.pdb".
+  del "U:\Web\Exe\Debug\fLogViewer.net.pdb"
+Project "U:\Build.xml" (1) is building "U:\PlugIns\DefaultPlugIns\DefaultPlugIns.sln" (12) on node 1 (default targets).
+ValidateSolutionConfiguration:
+  Building solution configuration "Debug|Any CPU".
+Project "U:\PlugIns\DefaultPlugIns\DefaultPlugIns.sln" (12) is building "U:\PlugIns\DefaultPlugIns\DefaultPlugIns.csproj" (4:3) on node 1 (default targets).
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Web.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /compile Forms\frmFindText.resx,obj\Debug\LogViewer.net.PlugIns.frmFindText.resources Forms\frmTextLineViewer.resx,obj\Debug\LogViewer.net.PlugIns.frmTextLineViewer.resources Forms\frmTabularLineViewer.resx,obj\Debug\LogViewer.net.PlugIns.frmTabularLineViewer.resources 
+CoreCompile:
+  c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Web.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug+ /debug:full /optimize- /out:obj\Debug\DefaultPlugIns.dll /resource:obj\Debug\LogViewer.net.PlugIns.frmFindText.resources /resource:obj\Debug\LogViewer.net.PlugIns.frmTextLineViewer.resources /resource:obj\Debug\LogViewer.net.PlugIns.frmTabularLineViewer.resources /target:library ..\..\MDI\Version.cs Forms\frmTabularLineViewer.cs Forms\frmTabularLineViewer.Designer.cs TabularFile.cs Plugin.ExportAsHTML.cs Plugin.ExportAsText.cs Plugin.FindText.cs Forms\frmFindText.cs Forms\frmFindText.Designer.cs Forms\frmTextLineViewer.cs Forms\frmTextLineViewer.Designer.cs Plugin.TextLineViewer.cs Plugin.TabularLineViewer.cs Properties\AssemblyInfo.cs Utils\UtilsPlugIn.cs
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\DefaultPlugIns.dll" to "bin\Debug\DefaultPlugIns.dll".
+  DefaultPlugIns -> U:\PlugIns\DefaultPlugIns\bin\Debug\DefaultPlugIns.dll
+  Copying file from "obj\Debug\DefaultPlugIns.pdb" to "bin\Debug\DefaultPlugIns.pdb".
+Done Building Project "U:\PlugIns\DefaultPlugIns\DefaultPlugIns.csproj" (default targets).
+Done Building Project "U:\PlugIns\DefaultPlugIns\DefaultPlugIns.sln" (default targets).
+Project "U:\Build.xml" (1) is building "U:\MDI\lvMDI.sln" (2:2) on node 1 (default targets).
+Project "U:\MDI\lvMDI.sln" (2:2) is building "U:\MDI\lvMDI.csproj.metaproj" (3:2) on node 1 (default targets).
+Project "U:\MDI\lvMDI.csproj.metaproj" (3:2) is building "U:\PlugIns\DefaultPlugIns\DefaultPlugIns.csproj" (4:4) on node 1 (default targets).
+CoreResGen:
+  All outputs are up-to-date.
+CoreCompile:
+Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  DefaultPlugIns -> U:\PlugIns\DefaultPlugIns\bin\Debug\DefaultPlugIns.dll
+Done Building Project "U:\PlugIns\DefaultPlugIns\DefaultPlugIns.csproj" (default targets).
+Project "U:\MDI\lvMDI.csproj.metaproj" (3:2) is building "U:\MDI\lvMDI.csproj" (5:2) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "bin\Debug\".
+  Creating directory "obj\Debug\".
+PreBuildEvent:
+  
+  REM COPY "U:\PlugIns\DefaultPlugIns\bin\Debug\DefaultPlugIns.dll" "U:\MDI\bin\Debug\"
+  REM COPY "U:\PlugIns\DefaultPlugIns\bin\Debug\DefaultPlugIns.pdb" "U:\MDI\bin\Debug\"
+  
+  SET PlugInDir=%APPDATA%\fLogViewer.net\PlugIns
+  
+  IF NOT EXIST "%PlugInDir%" MD "%PlugInDir%" 
+  
+  COPY "U:\PlugIns\DefaultPlugIns\bin\Debug\DefaultPlugIns.dll"    "%APPDATA%\fLogViewer.net\PlugIns"
+  COPY "U:\PlugIns\DefaultPlugIns\bin\Debug\DefaultPlugIns.pdb" "%APPDATA%\fLogViewer.net\PlugIns"
+  
+  COPY "U:\UnitTests\Reference.Files\ExportAsHtml.py"                  "%APPDATA%\fLogViewer.net\PlugIns"
+  COPY "U:\UnitTests\Reference.Files\ExportAsText.py"                   "%APPDATA%\fLogViewer.net\PlugIns"
+  COPY "U:\UnitTests\Reference.Files\TextLineViewerPy.py"             "%APPDATA%\fLogViewer.net\PlugIns"
+  COPY "U:\UnitTests\Reference.Files\ErrorFilter.py"                        "%APPDATA%\fLogViewer.net\Filters"
+  
+  
+  
+  
+  
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath /r:U:\MDI\Resources\ICSharpCode.SharpZipLib.dll /r:U:\MDI\Resources\IronPython.dll /r:U:\MDI\Resources\IronPython.Modules.dll /r:U:\MDI\Resources\Microsoft.Scripting.Core.dll /r:U:\MDI\Resources\Microsoft.Scripting.dll /r:U:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.DirectoryServices.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Management.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Web.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /r:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /compile lvEngine\CSLib.CListView.resx,obj\Debug\LogViewer.Net.CListView.resources FormInputBox.resx,obj\Debug\LogViewer.Net.FormInputBox.resources frmAbout.resx,obj\Debug\LogViewer.Net.frmAbout.resources frmColorsEdit.resx,obj\Debug\LogViewer.Net.frmColorsEdit.resources frmDebug.resx,obj\Debug\LogViewer.Net.frmDebug.resources frmEventViewerMonitor.resx,obj\Debug\LogViewer.Net.frmEventViewerMonitor.resources frmFilter.resx,obj\Debug\LogViewer.Net.frmFilter.resources frmGotoLine.resx,obj\Debug\LogViewer.Net.frmGotoLine.resources frmLicense.resx,obj\Debug\LogViewer.Net.frmLicense.resources frmLog.resx,obj\Debug\LogViewer.Net.frmLog.resources frmMDI.resx,obj\Debug\LogViewer.Net.frmMDI.resources frmOptions.resx,obj\Debug\LogViewer.Net.frmOptions.resources frmSplash.resx,obj\Debug\LogViewer.Net.frmSplash.resources frmURL.resx,obj\Debug\LogViewer.Net.frmURL.resources Properties\Resources.resx,obj\Debug\LogViewer.Net.Properties.Resources.resources 
+CoreCompile:
+  c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE;DEBUG;MDI;BETA;DEBUG_MESSAG /reference:U:\MDI\Resources\ICSharpCode.SharpZipLib.dll /reference:U:\MDI\Resources\IronPython.dll /reference:U:\MDI\Resources\IronPython.Modules.dll /reference:U:\MDI\Resources\Microsoft.Scripting.Core.dll /reference:U:\MDI\Resources\Microsoft.Scripting.dll /reference:U:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.DirectoryServices.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Management.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Web.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug+ /debug:full /optimize- /out:obj\Debug\fLogViewer.net.exe /resource:obj\Debug\LogViewer.Net.CListView.resources /resource:obj\Debug\LogViewer.Net.FormInputBox.resources /resource:obj\Debug\LogViewer.Net.frmAbout.resources /resource:obj\Debug\LogViewer.Net.frmColorsEdit.resources /resource:obj\Debug\LogViewer.Net.frmDebug.resources /resource:obj\Debug\LogViewer.Net.frmEventViewerMonitor.resources /resource:obj\Debug\LogViewer.Net.frmFilter.resources /resource:obj\Debug\LogViewer.Net.frmGotoLine.resources /resource:obj\Debug\LogViewer.Net.frmLicense.resources /resource:obj\Debug\LogViewer.Net.frmLog.resources /resource:obj\Debug\LogViewer.Net.frmMDI.resources /resource:obj\Debug\LogViewer.Net.frmOptions.resources /resource:obj\Debug\LogViewer.Net.frmSplash.resources /resource:obj\Debug\LogViewer.Net.frmURL.resources /resource:obj\Debug\LogViewer.Net.Properties.Resources.resources /target:winexe /win32icon:LogViewer.ico ..\lvEngine\CHTTP.cs ..\lvEngine\ColorLinesInfo.cs ..\lvEngine\COptions.cs ..\lvEngine\DataFormatter.cs ..\lvEngine\EventViewerMonitor.cs ..\lvEngine\IndexedTextFile.cs ..\lvEngine\LateBinder.cs ..\lvEngine\lvAppObject.cs ..\lvEngine\lvBookmark.cs ..\lvEngine\lvCommandLine.cs ..\lvEngine\lvCONST.cs ..\lvEngine\lvEngine.cs ..\lvEngine\lvFileStream.cs ..\lvEngine\lvFilter.cs ..\lvEngine\lvFilters.cs ..\lvEngine\lvIronPythonPlugIn.cs ..\lvEngine\lvPlugin.cs ..\lvEngine\lvPlugins.cs ..\lvEngine\lvPluginsManager.cs ..\lvEngine\lvUtils.cs ..\lvEngine\lvW3CLogFile.cs ..\lvEngine\lvZip.cs ..\lvEngine\MethodTracer.cs ..\lvEngine\OptionsManager.cs ..\lvEngine\TRACER.cs Installer\EmbdedInstaller.cs Classes\FontManager.cs frmAbout.cs frmAbout.Designer.cs frmEventViewerMonitor.cs frmEventViewerMonitor.Designer.cs frmLicense.cs frmLicense.Designer.cs frmURL.cs frmURL.Designer.cs Classes\InCisif.AutoUpdate.cs lvEngine\CSLib.CListView.cs lvEngine\CWin32Api.cs FormInputBox.cs frmColorsEdit.cs frmColorsEdit.Designer.cs frmDebug.cs frmDebug.Designer.cs frmFilter.cs frmFilter.Designer.cs frmGotoLine.cs frmGotoLine.Designer.cs frmLog.cs frmLog.Designer.cs frmMDI.cs frmMDI.Designer.cs frmOptions.cs frmOptions.Designer.cs frmSplash.cs frmSplash.Designer.cs Classes\lvFolderBrowser.cs Classes\lvWinEngine.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Classes\WindowsRenderingEngine.cs Version.cs Classes\WindowsAPI.cs
+frmMDI.cs(53,21): warning CS0114: 'LogViewer.Net.frmMDI.ResetFont()' hides inherited member 'System.Windows.Forms.Control.ResetFont()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword. [U:\MDI\lvMDI.csproj]
+frmLog.cs(1220,13): warning CS0414: The field 'LogViewer.Net.frmLog.vScrollBar_ScrollCounter' is assigned but its value is never used [U:\MDI\lvMDI.csproj]
+_CopyFilesMarkedCopyLocal:
+  Copying file from "U:\MDI\Resources\ICSharpCode.SharpZipLib.dll" to "bin\Debug\ICSharpCode.SharpZipLib.dll".
+  Copying file from "U:\MDI\Resources\IronPython.dll" to "bin\Debug\IronPython.dll".
+  Copying file from "U:\MDI\Resources\IronPython.Modules.dll" to "bin\Debug\IronPython.Modules.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.Core.dll" to "bin\Debug\Microsoft.Scripting.Core.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.dll" to "bin\Debug\Microsoft.Scripting.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll" to "bin\Debug\Microsoft.Scripting.ExtensionAttribute.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Dynamic.dll" to "bin\Debug\Microsoft.Dynamic.dll".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\fLogViewer.net.exe" to "bin\Debug\fLogViewer.net.exe".
+  lvMDI -> U:\MDI\bin\Debug\fLogViewer.net.exe
+  Copying file from "obj\Debug\fLogViewer.net.pdb" to "bin\Debug\fLogViewer.net.pdb".
+Done Building Project "U:\MDI\lvMDI.csproj" (default targets).
+Done Building Project "U:\MDI\lvMDI.csproj.metaproj" (default targets).
+Project "U:\MDI\lvMDI.sln" (2:2) is building "U:\lvEngine\lvEngine.csproj" (7:4) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "obj\Debug\".
+CoreCompile:
+  c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /unsafe+ /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;DEBUG;lvENGINE /reference:U:\MDI\Resources\ICSharpCode.SharpZipLib.dll /reference:U:\MDI\Resources\IronPython.dll /reference:U:\MDI\Resources\IronPython.Modules.dll /reference:U:\MDI\Resources\Microsoft.Dynamic.dll /reference:U:\MDI\Resources\Microsoft.Scripting.Core.dll /reference:U:\MDI\Resources\Microsoft.Scripting.dll /reference:U:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.configuration.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Management.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug+ /debug:full /optimize- /out:obj\Debug\lvEngine.dll /target:library CHTTP.cs ColorLinesInfo.cs COptions.cs DataFormatter.cs EventViewerMonitor.cs FastUtil.cs InCisif.EmbdedDataManager.cs IndexedTextFile.cs lvIronPythonPlugIn.cs LateBinder.cs lvAppObject.cs lvBookmark.cs lvCommandLine.cs lvCONST.cs lvCsvFile.cs lvEngine.cs lvFileStream.cs lvFilter.cs lvFilters.cs lvPlugin.cs lvPlugins.cs lvPluginsManager.cs lvUtils.cs lvZip.cs MethodTracer.cs OptionsManager.cs Properties\AssemblyInfo.cs TRACER.cs lvW3CLogFile.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "U:\MDI\Resources\ICSharpCode.SharpZipLib.dll" to "bin\Debug\ICSharpCode.SharpZipLib.dll".
+  Copying file from "U:\MDI\Resources\IronPython.dll" to "bin\Debug\IronPython.dll".
+  Copying file from "U:\MDI\Resources\IronPython.Modules.dll" to "bin\Debug\IronPython.Modules.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Dynamic.dll" to "bin\Debug\Microsoft.Dynamic.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.Core.dll" to "bin\Debug\Microsoft.Scripting.Core.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.dll" to "bin\Debug\Microsoft.Scripting.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll" to "bin\Debug\Microsoft.Scripting.ExtensionAttribute.dll".
+_CopyAppConfigFile:
+  Copying file from "app.config" to "bin\Debug\lvEngine.dll.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\lvEngine.dll" to "bin\Debug\lvEngine.dll".
+  lvEngine -> U:\lvEngine\bin\Debug\lvEngine.dll
+  Copying file from "obj\Debug\lvEngine.pdb" to "bin\Debug\lvEngine.pdb".
+Done Building Project "U:\lvEngine\lvEngine.csproj" (default targets).
+Project "U:\MDI\lvMDI.sln" (2:2) is building "U:\UnitTests\UnitTests.csproj" (11:2) on node 1 (default targets).
+GenerateTargetFrameworkMonikerAttribute:
+Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+CoreCompile:
+  c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:TRACE;DEBUG;ALL /reference:U:\MDI\Resources\DefaultPlugIns.dll /reference:U:\MDI\Resources\ICSharpCode.SharpZipLib.dll /reference:U:\MDI\Resources\IronPython.dll /reference:U:\MDI\Resources\IronPython.Modules.dll /reference:U:\lvEngine\bin\Debug\lvEngine.dll /reference:U:\MDI\Resources\Microsoft.Dynamic.dll /reference:U:\MDI\Resources\Microsoft.Scripting.Core.dll /reference:U:\MDI\Resources\Microsoft.Scripting.dll /reference:U:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll /reference:"C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /reference:"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\UnitTests.dll /target:library ColorLinesInfo_UnitTests.cs DataFormatterUnitTests.cs IronPython.PlugInManager.UnitTests.cs lvFileStream.UnitTests.cs lvFilter.UnitTests.cs lvFilters.UnitTest.cs Properties\AssemblyInfo.cs TextIndexedFile.UnitTests.cs UnitTests_Global.cs "C:\Documents and Settings\Fred\Local Settings\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cs"
+CSC : warning CS1685: The predefined type 'System.Runtime.CompilerServices.ExtensionAttribute' is defined in multiple assemblies in the global alias; using definition from 'u:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll' [U:\UnitTests\UnitTests.csproj]
+lvFilter.UnitTests.cs(109,37): warning CS0168: The variable 'ex' is declared but never used [U:\UnitTests\UnitTests.csproj]
+_CopyFilesMarkedCopyLocal:
+  Copying file from "U:\MDI\Resources\DefaultPlugIns.dll" to "bin\Debug\DefaultPlugIns.dll".
+  Copying file from "U:\MDI\Resources\ICSharpCode.SharpZipLib.dll" to "bin\Debug\ICSharpCode.SharpZipLib.dll".
+  Copying file from "U:\MDI\Resources\IronPython.dll" to "bin\Debug\IronPython.dll".
+  Copying file from "U:\MDI\Resources\IronPython.Modules.dll" to "bin\Debug\IronPython.Modules.dll".
+  Copying file from "U:\lvEngine\bin\Debug\lvEngine.dll" to "bin\Debug\lvEngine.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Dynamic.dll" to "bin\Debug\Microsoft.Dynamic.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.Core.dll" to "bin\Debug\Microsoft.Scripting.Core.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.dll" to "bin\Debug\Microsoft.Scripting.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll" to "bin\Debug\Microsoft.Scripting.ExtensionAttribute.dll".
+  Copying file from "U:\lvEngine\bin\Debug\lvEngine.pdb" to "bin\Debug\lvEngine.pdb".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\UnitTests.dll" to "bin\Debug\UnitTests.dll".
+  UnitTests -> U:\UnitTests\bin\Debug\UnitTests.dll
+  Copying file from "obj\Debug\UnitTests.pdb" to "bin\Debug\UnitTests.pdb".
+Done Building Project "U:\UnitTests\UnitTests.csproj" (default targets).
+Project "U:\MDI\lvMDI.sln" (2:2) is building "U:\IronPython\DynamicObjects\DynamicObjects\DynamicObjects.csproj" (10:2) on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "bin\Debug\".
+CoreCompile:
+  c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:U:\MDI\Resources\DefaultPlugIns.dll /reference:U:\MDI\Resources\IronPython.dll /reference:U:\MDI\Resources\IronPython.Modules.dll /reference:U:\MDI\Resources\Microsoft.Dynamic.dll /reference:U:\MDI\Resources\Microsoft.Scripting.Core.dll /reference:U:\MDI\Resources\Microsoft.Scripting.dll /reference:U:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\DynamicObjects.exe /target:exe Program.cs Properties\AssemblyInfo.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "U:\MDI\Resources\DefaultPlugIns.dll" to "bin\Debug\DefaultPlugIns.dll".
+  Copying file from "U:\MDI\Resources\IronPython.dll" to "bin\Debug\IronPython.dll".
+  Copying file from "U:\MDI\Resources\IronPython.Modules.dll" to "bin\Debug\IronPython.Modules.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Dynamic.dll" to "bin\Debug\Microsoft.Dynamic.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.Core.dll" to "bin\Debug\Microsoft.Scripting.Core.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.dll" to "bin\Debug\Microsoft.Scripting.dll".
+  Copying file from "U:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll" to "bin\Debug\Microsoft.Scripting.ExtensionAttribute.dll".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\DynamicObjects.exe" to "bin\Debug\DynamicObjects.exe".
+  DynamicObjects -> U:\IronPython\DynamicObjects\DynamicObjects\bin\Debug\DynamicObjects.exe
+  Copying file from "obj\Debug\DynamicObjects.pdb" to "bin\Debug\DynamicObjects.pdb".
+Done Building Project "U:\IronPython\DynamicObjects\DynamicObjects\DynamicObjects.csproj" (default targets).
+Project "U:\MDI\lvMDI.sln" (2:2) is building "U:\ZipFile\ZipFile.csproj" (9:2) on node 1 (default targets).
+CoreCompile:
+  c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:U:\MDI\Resources\ICSharpCode.SharpZipLib.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\ZipFile.exe /target:exe ..\lvEngine\lvZip.cs Program.cs Properties\AssemblyInfo.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "U:\MDI\Resources\ICSharpCode.SharpZipLib.dll" to "bin\Debug\ICSharpCode.SharpZipLib.dll".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\ZipFile.exe" to "bin\Debug\ZipFile.exe".
+  ZipFile -> U:\ZipFile\bin\Debug\ZipFile.exe
+  Copying file from "obj\Debug\ZipFile.pdb" to "bin\Debug\ZipFile.pdb".
+Done Building Project "U:\ZipFile\ZipFile.csproj" (default targets).
+Project "U:\MDI\lvMDI.sln" (2:2) is building "U:\Utility\GenerateVersionVbs\GenerateVersionVbs.csproj" (8:2) on node 1 (default targets).
+CoreCompile:
+  c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\GenerateVersionVbs.exe /target:exe Program.cs Properties\AssemblyInfo.cs
+Program.cs(35,37): warning CS0168: The variable 'ex' is declared but never used [U:\Utility\GenerateVersionVbs\GenerateVersionVbs.csproj]
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\GenerateVersionVbs.exe" to "bin\Debug\GenerateVersionVbs.exe".
+  GenerateVersionVbs -> U:\Utility\GenerateVersionVbs\bin\Debug\GenerateVersionVbs.exe
+  Copying file from "obj\Debug\GenerateVersionVbs.pdb" to "bin\Debug\GenerateVersionVbs.pdb".
+Done Building Project "U:\Utility\GenerateVersionVbs\GenerateVersionVbs.csproj" (default targets).
+Project "U:\MDI\lvMDI.sln" (2:2) is building "U:\Utility\FileUpdater\FileUpdater.csproj" (6:2) on node 1 (default targets).
+CoreCompile:
+  c:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:U:\lvEngine\bin\Debug\lvEngine.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Core.dll" /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Data.DataSetExtensions.dll" /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:c:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"c:\Program Files\Reference Assemblies\Microsoft\Framework\v3.5\System.Xml.Linq.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\Debug\FileUpdater.exe /target:exe Program.cs Properties\AssemblyInfo.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "U:\lvEngine\bin\Debug\lvEngine.dll" to "..\Bin\lvEngine.dll".
+  Copying file from "U:\lvEngine\bin\Debug\lvEngine.pdb" to "..\Bin\lvEngine.pdb".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Debug\FileUpdater.exe" to "..\Bin\FileUpdater.exe".
+  FileUpdater -> U:\Utility\Bin\FileUpdater.exe
+  Copying file from "obj\Debug\FileUpdater.pdb" to "..\Bin\FileUpdater.pdb".
+Done Building Project "U:\Utility\FileUpdater\FileUpdater.csproj" (default targets).
+Done Building Project "U:\MDI\lvMDI.sln" (default targets).
+BuildAll:
+  "C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE\mstest.exe" "/testcontainer:U:\UnitTests\bin\Debug\UnitTests.dll"
+  Microsoft (R) Test Execution Command Line Tool Version 10.0.30319.1
+  Copyright (c) Microsoft Corporation. All rights reserved.
+      
+  Loading U:\UnitTests\bin\Debug\UnitTests.dll...
+  Starting execution...
+  
+  Results               Top Level Tests
+  -------               ---------------
+  Passed                IronPython.lvFilter_UnitTests.ReadPlugInInfo
+  Passed                LogViewer.Net.UnitTests.ColorLinesInfo_UnitTests.LoadAndFindMatchingColor
+  Passed                LogViewer.Net.UnitTests.ColorLinesInfo_UnitTests.LoadAndFindMatchingColorWithFileExtension
+  Passed                LogViewer.Net.UnitTests.DataFormatterUnitTests.DataFormatter_Basic_Usage
+  Passed                LogViewer.Net.UnitTests.lvFileStream_UnitTests.BasicUnitTest
+  Passed                LogViewer.Net.UnitTests.lvFileStream_UnitTests.ReadLineUnitTest
+  Passed                LogViewer.Net.UnitTests.lvFilter_UnitTests.DeleteFilterFileUnitTest
+  Passed                LogViewer.Net.UnitTests.lvFilter_UnitTests.ExecuteIronPythonFilteringUnitTest
+  Passed                LogViewer.Net.UnitTests.lvFilter_UnitTests.ExecuteIronPythonLoadPlugWhichIsNotAFilterUnitTest
+  Passed                LogViewer.Net.UnitTests.lvFilter_UnitTests.ExecuteRegularExpressionUnitTest
+  Passed                LogViewer.Net.UnitTests.lvFilter_UnitTests.ExecuteSimpleUnitTest
+  Passed                LogViewer.Net.UnitTests.lvFilter_UnitTests.SaveReadFilterUnitTest
+  Passed                LogViewer.Net.UnitTests.lvFilters_UnitTests.AddRemoveUnitTest
+  Passed                LogViewer.Net.UnitTests.lvFilters_UnitTests.SaveLoadUnitTest
+  Passed                LogViewer.Net.UnitTests.TextIndexedFile_UnitTests.LoadIndexBookmarkMode_UnitTests
+  Passed                LogViewer.Net.UnitTests.TextIndexedFile_UnitTests.LoadIndexUnitTests
+  Passed                LogViewer.Net.UnitTests.TextIndexedFile_UnitTests.LoadIndexWithFilterRegularExpressionUnitTests
+  Passed                LogViewer.Net.UnitTests.TextIndexedFile_UnitTests.LoadUpdateIndex_UnitTests
+  Passed                LogViewer.Net.UnitTests.TextIndexedFile_UnitTests.LoadUpdateIndexWithFilter_UnitTests
+  19/19 test(s) Passed
+  
+  Summary
+  -------
+  Test Run Completed.
+    Passed  19
+    ----------
+    Total   19
+  Results file:  U:\TestResults\Fred_LAPTOP01 2010-10-09 01_14_01.trx
+  Test Settings: Default Test Settings
+  Copying file from "U:\MDI\bin\Debug\fLogViewer.net.exe" to "U:\Web\Exe\Debug\fLogViewer.net.exe".
+  copy /y "U:\MDI\bin\Debug\fLogViewer.net.exe" "U:\Web\Exe\Debug\fLogViewer.net.exe"
+  Copying file from "U:\MDI\bin\Debug\fLogViewer.net.pdb" to "U:\Web\Exe\Debug\fLogViewer.net.pdb".
+  copy /y "U:\MDI\bin\Debug\fLogViewer.net.pdb" "U:\Web\Exe\Debug\fLogViewer.net.pdb"
+Done Building Project "U:\Build.xml" (BuildAll target(s)).
+
+Build succeeded.
+
+"U:\Build.xml" (BuildAll target) (1) ->
+"U:\MDI\lvMDI.sln" (default target) (2:2) ->
+"U:\MDI\lvMDI.csproj.metaproj" (default target) (3:2) ->
+"U:\MDI\lvMDI.csproj" (default target) (5:2) ->
+(CoreCompile target) -> 
+  frmMDI.cs(53,21): warning CS0114: 'LogViewer.Net.frmMDI.ResetFont()' hides inherited member 'System.Windows.Forms.Control.ResetFont()'. To make the current member override that implementation, add the override keyword. Otherwise add the new keyword. [U:\MDI\lvMDI.csproj]
+  frmLog.cs(1220,13): warning CS0414: The field 'LogViewer.Net.frmLog.vScrollBar_ScrollCounter' is assigned but its value is never used [U:\MDI\lvMDI.csproj]
+
+
+"U:\Build.xml" (BuildAll target) (1) ->
+"U:\MDI\lvMDI.sln" (default target) (2:2) ->
+"U:\UnitTests\UnitTests.csproj" (default target) (11:2) ->
+  CSC : warning CS1685: The predefined type 'System.Runtime.CompilerServices.ExtensionAttribute' is defined in multiple assemblies in the global alias; using definition from 'u:\MDI\Resources\Microsoft.Scripting.ExtensionAttribute.dll' [U:\UnitTests\UnitTests.csproj]
+  lvFilter.UnitTests.cs(109,37): warning CS0168: The variable 'ex' is declared but never used [U:\UnitTests\UnitTests.csproj]
+
+
+"U:\Build.xml" (BuildAll target) (1) ->
+"U:\MDI\lvMDI.sln" (default target) (2:2) ->
+"U:\Utility\GenerateVersionVbs\GenerateVersionVbs.csproj" (default target) (8:2) ->
+  Program.cs(35,37): warning CS0168: The variable 'ex' is declared but never used [U:\Utility\GenerateVersionVbs\GenerateVersionVbs.csproj]
+
+    5 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:27.39

@@ -1,0 +1,1221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75B9A58C-F120-4CC5-AE3E-A256DC379543}</ProjectGuid>
+    <ProjectTypeGuids>{82b43b9b-a64c-4715-b499-d71e9ca2bd60};{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FredericTorres.TextHighlighterExtension2013</RootNamespace>
+    <AssemblyName>TextHighlighterExtension2013</AssemblyName>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>Key.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug2013\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;VS2012</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release2013\</OutputPath>
+    <DefineConstants>TRACE;CODE_ANALYSIS;VS2012</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DynamicSugar, Version=0.2.3.0, Culture=neutral, PublicKeyToken=e8dd8df5156875e2, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ref\DynamicSugar.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.9.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.10.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.11.0">
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.12.0">
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TextManager.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Shell.12.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Immutable.10.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Immutable.11.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Immutable.12.0" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualStudio.CoreUtility, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft Visual Studio 2013\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.CoreUtility.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Editor, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Language.Intellisense, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft Visual Studio 2013\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Language.Intellisense.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.OLE.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.8.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.9.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.10.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.11.0">
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Shell.Interop.12.0">
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Text.Data, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft Visual Studio 2013\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Text.Logic, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft Visual Studio 2013\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.Logic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Text.UI, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft Visual Studio 2013\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Text.UI.Wpf, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Program Files (x86)\Microsoft Visual Studio 2013\VSSDK\VisualStudioIntegration\Common\Assemblies\v4.0\Microsoft.VisualStudio.Text.UI.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TextManager.Interop" />
+    <Reference Include="Microsoft.VisualStudio.Shell.12.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Immutable.10.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Immutable.11.0" />
+    <Reference Include="Microsoft.VisualStudio.Shell.Immutable.12.0" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\ref\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="EnvDTE">
+      <Guid>{80CC9F66-E7D8-4DDD-85B6-D9E6CD0E93E2}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="EnvDTE100">
+      <Guid>{26AD1324-4B7C-44BC-84F8-B86AED45729F}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="EnvDTE80">
+      <Guid>{1A31287A-4D7D-413E-8E32-3B374931BD89}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="EnvDTE90">
+      <Guid>{2CE2370E-D744-4936-A090-3FFFE667B0E1}</Guid>
+      <VersionMajor>9</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.VisualStudio.CommandBars">
+      <Guid>{1CBA492E-7263-47BB-87FE-639000619B15}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\__VersionInfo.cs">
+      <Link>__VersionInfo.cs</Link>
+    </Compile>
+    <Compile Include="Configuration\TextHighlighterConfigApi.cs" />
+    <Compile Include="Guids.cs" />
+    <Compile Include="JsonConfigurationEngine.cs" />
+    <Compile Include="LanguageServices\Generated\FTVSToolKit.AllColorsBoldDefinition2.cs">
+      <DependentUpon>FTVSToolKit.AllColorsBoldDefinition.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="LanguageServices\Generated\FTVSToolKit.AllColorsBoldItalicDefinition2.cs">
+      <DependentUpon>FTVSToolKit.AllColorsBoldItalicDefinition.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="LanguageServices\Generated\FTVSToolKit.AllColorsDefinition1.cs">
+      <DependentUpon>FTVSToolKit.AllColorsDefinition.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="LanguageServices\Generated\FTVSToolKit.AllColorsItalicDefinition2.cs">
+      <DependentUpon>FTVSToolKit.AllColorsItalicDefinition.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="LanguageServices\Languages\Bash\BashColorEngine.cs" />
+    <Compile Include="LanguageServices\Languages\Bash\Classification\BashClassifier.cs" />
+    <Compile Include="LanguageServices\Languages\Bash\Classification\BashTokenTag.cs" />
+    <Compile Include="LanguageServices\Languages\Bash\Intellisense\BashCompletionControler.cs" />
+    <Compile Include="LanguageServices\Languages\Bash\Intellisense\BashCompletionSource.cs" />
+    <Compile Include="LanguageServices\Languages\Bash\Intellisense\CmdCompletionControler.cs" />
+    <Compile Include="LanguageServices\Languages\Bash\Parser\BashParser.cs" />
+    <Compile Include="LanguageServices\Languages\Bat\BatColorEngine.cs" />
+    <Compile Include="LanguageServices\Languages\Bat\Classification\BatClassifier.cs" />
+    <Compile Include="LanguageServices\Languages\Bat\Classification\BatTokenTag.cs" />
+    <Compile Include="LanguageServices\Languages\Bat\Classification\CmdClassifier.cs" />
+    <Compile Include="LanguageServices\Languages\Bat\Classification\CmdTokenTag.cs" />
+    <Compile Include="LanguageServices\Languages\Bat\Intellisense\BatCompletionControler.cs" />
+    <Compile Include="LanguageServices\Languages\Bat\Intellisense\BatCompletionSource.cs" />
+    <Compile Include="LanguageServices\Languages\Bat\Intellisense\CmdCompletionControler.cs" />
+    <Compile Include="LanguageServices\Languages\Bat\Parser\BatParser.cs" />
+    <Compile Include="LanguageServices\Languages\CTXT\Classification\CTxtClassifier.cs" />
+    <Compile Include="LanguageServices\Languages\CTXT\Classification\CTxtTokenTag.cs" />
+    <Compile Include="LanguageServices\Languages\Log4j.properties\Classification\Log4j.properties.Classifier.cs" />
+    <Compile Include="LanguageServices\Languages\Log4j.properties\Classification\Log4j.properties.TokenTag.cs" />
+    <Compile Include="LanguageServices\Languages\Ini\Classification\IniClassifier.cs" />
+    <Compile Include="LanguageServices\Languages\Ini\Classification\IniTokenTag.cs" />
+    <Compile Include="LanguageServices\Languages\IntellisenseManager.cs" />
+    <Compile Include="LanguageServices\Languages\Json\Classification\JsonClassifier.cs" />
+    <Compile Include="LanguageServices\Languages\Json\Classification\JsonTokenErrorTag.BU.cs" />
+    <Compile Include="LanguageServices\Languages\Json\Classification\JsonTokenErrorTag.cs" />
+    <Compile Include="LanguageServices\Languages\Json\Classification\JsonTokenTag.cs" />
+    <Compile Include="LanguageServices\Languages\Json\Intellisense\KeyInterceptor.cs" />
+    <Compile Include="LanguageServices\Languages\Json\Intellisense\JsonCompletionControler.cs" />
+    <Compile Include="LanguageServices\Languages\Json\Intellisense\JsonCompletionSource.cs" />
+    <Compile Include="LanguageServices\Languages\Json\Intellisense\MinimappIntellisense.cs" />
+    <Compile Include="LanguageServices\Languages\Json\Parser\JsonValidator.cs" />
+    <Compile Include="LanguageServices\Languages\PS1\Classification\Ps1Classifier.cs" />
+    <Compile Include="LanguageServices\Languages\PS1\Classification\Ps1ColorEngine.cs" />
+    <Compile Include="LanguageServices\Languages\PS1\Classification\Ps1TokenTag.cs" />
+    <Compile Include="LanguageServices\Languages\PS1\Classification\Psd1Classifier.cs" />
+    <Compile Include="LanguageServices\Languages\PS1\Classification\Psd1TokenTag.cs" />
+    <Compile Include="LanguageServices\Languages\PS1\Classification\Psm1Classifier.cs" />
+    <Compile Include="LanguageServices\Languages\PS1\Classification\Psm1TokenTag.cs" />
+    <Compile Include="LanguageServices\Languages\PS1\Intellisense\PowerShellCompletionControler.cs" />
+    <Compile Include="LanguageServices\Languages\PS1\Intellisense\PowerShellCompletionSource.cs" />
+    <Compile Include="LanguageServices\Languages\TextLog\ExtensionDefinition.cs" />
+    <Compile Include="LanguageServices\Languages\TextLog\TextAndLogClassifierProvider.cs" />
+    <Compile Include="LanguageServices\Languages\TextLog\vsLogViewerClassifier.cs" />
+    <Compile Include="Options\ColorTab\OptionTab.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Options\ColorTab\UserControlOptionTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\ColorTab\UserControlOptionTab.Designer.cs">
+      <DependentUpon>UserControlOptionTab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options\JsonTab\JsonTab.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Options\JsonTab\JsonTabUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Options\JsonTab\JsonTabUserControl.Designer.cs">
+      <DependentUpon>JsonTabUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PkgCmdID.cs" />
+    <Compile Include="Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextHighlighterPackagePackage.cs" />
+    <Compile Include="Util\LinePosition.cs" />
+    <Compile Include="Util\Tokenizer.cs" />
+    <Compile Include="VSXToolKit\VSXToolkit.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Options\ColorTab\UserControlOptionTab.resx">
+      <DependentUpon>UserControlOptionTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options\JsonTab\JsonTabUserControl.resx">
+      <DependentUpon>JsonTabUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VSPackage.resx">
+      <MergeWithCTO>true</MergeWithCTO>
+      <ManifestResourceName>VSPackage</ManifestResourceName>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Demo\demo.txt" />
+    <Resource Include="Demo\http.visualstudiogallery.msdn.microsoft\demo2_txt.gif" />
+    <Resource Include="Demo\http.visualstudiogallery.msdn.microsoft\demo_bat.gif" />
+    <Resource Include="Demo\http.visualstudiogallery.msdn.microsoft\IniFileScreenShot.jpg" />
+    <Resource Include="Demo\http.visualstudiogallery.msdn.microsoft\PowerShellScreenShot.jpg" />
+    <Resource Include="Demo\Images\Bat4VisualStudio.black.jpg" />
+    <Resource Include="Demo\Images\Bat4VisualStudio.white.jpg" />
+    <Resource Include="Demo\Images\demo.bat.gif" />
+    <Resource Include="Demo\Images\demo2.txt.gif" />
+    <Resource Include="Demo\Images\DownloadExtension.jpg" />
+    <Resource Include="Demo\Images\EnableExtension.gif" />
+    <Resource Include="Demo\Images\ini4VisualStudio.black.jpg" />
+    <Resource Include="Demo\Images\ini4VisualStudio.White.jpg" />
+    <Resource Include="Demo\Images\Json4VisualStudio.Black.jpg" />
+    <Resource Include="Demo\Images\Json4VisualStudio.SyntaxValidation2.jpg" />
+    <Resource Include="Demo\Images\Json4VisualStudio.White.jpg" />
+    <Resource Include="Demo\Images\ScreenShot.gif" />
+    <Resource Include="Demo\Images\Thumbnail.gif" />
+    <Resource Include="Demo\Images\txt4VisualStudio.black.jpg" />
+    <Resource Include="Demo\Images\txt4VisualStudio.white.jpg" />
+    <Resource Include="Demo\WebRef.txt" />
+    <Content Include="Intellisense.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="KEYWORDS.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <None Include="Demo\a.bat" />
+    <None Include="Demo\a.json" />
+    <None Include="Demo\a.ps1" />
+    <None Include="Demo\b.json" />
+    <None Include="Demo\Batch.Sample.bat" />
+    <None Include="Demo\big.json" />
+    <None Include="Demo\BugTracking.gxt" />
+    <None Include="Demo\CucumberGherkin.feature.gxt" />
+    <None Include="Demo\log4j.properties" />
+    <None Include="Demo\demo.bat" />
+    <None Include="Demo\demo.cmd" />
+    <None Include="Demo\demo.ctxt" />
+    <None Include="Demo\demo.ini" />
+    <None Include="Demo\demo.log" />
+    <None Include="Demo\demo1.ps1" />
+    <None Include="Demo\demo2.ps1" />
+    <None Include="Demo\demo2.psd1" />
+    <None Include="Demo\demo2.psm1" />
+    <None Include="Demo\demoIntellisense.bat" />
+    <None Include="Demo\Execute.graph.ctxt" />
+    <None Include="Demo\Json.sample.json" />
+    <None Include="Demo\Json.sample.small.json" />
+    <None Include="Demo\JsonToFormat.json" />
+    <None Include="Demo\TODO.md" />
+    <None Include="Demo\markdown.md" />
+    <None Include="Demo\markdown.mdn" />
+    <None Include="Demo\markdown.mkd" />
+    <None Include="Demo\MiniMapp.1.json" />
+    <None Include="Demo\msbuild.log" />
+    <None Include="Demo\t.tdl.gxt" />
+    <None Include="Demo\test.ps1" />
+    <None Include="Demo\TODO.tdl.gxt" />
+    <None Include="Demo\UserStory.gxt" />
+    <None Include="Demo\VeryBig.json" />
+    <None Include="LanguageServices\Generated\FTVSToolKit.AllColorsBoldDefinition.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>FTVSToolKit.AllColorsBoldDefinition2.cs</LastGenOutput>
+    </None>
+    <None Include="LanguageServices\Generated\FTVSToolKit.AllColorsBoldItalicDefinition.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>FTVSToolKit.AllColorsBoldItalicDefinition2.cs</LastGenOutput>
+    </None>
+    <None Include="LanguageServices\Generated\FTVSToolKit.AllColorsDefinition.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>FTVSToolKit.AllColorsDefinition1.cs</LastGenOutput>
+    </None>
+    <None Include="LanguageServices\Generated\FTVSToolKit.AllColorsItalicDefinition.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>FTVSToolKit.AllColorsItalicDefinition2.cs</LastGenOutput>
+    </None>
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\all.ps1" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\ExtractHelp.ps1" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\%25.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ac.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-Computer.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-Content.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-History.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-Member.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-PSSnapin.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-Type.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\asnp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cat.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cd.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\chdir.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Checkpoint-Computer.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\clc.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-Content.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-EventLog.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-History.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-Item.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-ItemProperty.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-Variable.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\clear.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\clhy.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cli.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\clp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cls.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\clv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Compare-Object.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\compare.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Complete-Transaction.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Connect-WSMan.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Convert-Path.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertFrom-CSV.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertFrom-SecureString.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertFrom-StringData.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertTo-CSV.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertTo-Html.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertTo-SecureString.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertTo-XML.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Copy-Item.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Copy-ItemProperty.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\copy.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cpi.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cpp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cvpa.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\dbp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Debug-Process.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\del.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\diff.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\dir.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Disable-ComputerRestore.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Disable-PSBreakpoint.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Disable-PSSessionConfiguration.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Disable-WSManCredSSP.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Disconnect-WSMan.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ebp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\echo.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enable-ComputerRestore.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enable-PSBreakpoint.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enable-PSRemoting.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enable-PSSessionConfiguration.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enable-WSManCredSSP.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enter-PSSession.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\epal.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\epcsv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\epsn.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\erase.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\etsn.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Exit-PSSession.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-Alias.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-Clixml.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-Console.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-Counter.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-CSV.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-FormatData.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-ModuleMember.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-PSSession.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\exsn.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ExtractHelp.ps1" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\fc.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\fl.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ForEach-Object.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\foreach.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Format-Custom.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Format-List.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Format-Table.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Format-Wide.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ft.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\fw.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gal.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gbp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gc.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gci.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gcm.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gcs.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gdr.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Acl.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Alias.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-AuthenticodeSignature.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-ChildItem.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Command.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-ComputerRestorePoint.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Content.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Counter.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Credential.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Culture.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Date.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Event.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-EventLog.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-EventSubscriber.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-ExecutionPolicy.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-FormatData.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-History.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Host.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-HotFix.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Item.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-ItemProperty.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Job.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Location.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Member.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Module.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PfxCertificate.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Process.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSBreakpoint.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSCallStack.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSDrive.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSProvider.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSSession.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSSessionConfiguration.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSSnapin.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Random.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Service.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-TraceSource.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Transaction.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-UICulture.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Unique.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Variable.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-WinEvent.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-WmiObject.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-WSManCredSSP.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-WSManInstance.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ghy.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gi.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gjb.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gl.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gm.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gmo.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gps.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Group-Object.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\group.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gsn.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gsnp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gsv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gu.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gwmi.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\h.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\history.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\icm.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\iex.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ihy.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ii.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-Alias.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-Clixml.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-Counter.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-CSV.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-LocalizedData.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-Module.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-PSSession.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-Command.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-Expression.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-History.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-Item.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-WmiMethod.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-WSManAction.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ipal.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ipcsv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ipmo.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ipsn.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ise.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\iwmi.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Join-Path.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\kill.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Limit-EventLog.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\lp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ls.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\man.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\md.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Measure-Command.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Measure-Object.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\measure.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\mi.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\mount.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Move-Item.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Move-ItemProperty.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\move.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\mp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\mv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\nal.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ndr.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Alias.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Event.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-EventLog.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Item.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-ItemProperty.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Module.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-ModuleManifest.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Object.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-PSDrive.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-PSSession.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-PSSessionOption.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Service.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-TimeSpan.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Variable.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-WebServiceProxy.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-WSManInstance.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-WSManSessionOption.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ni.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\nmo.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\nsn.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\nv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ogv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\oh.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-Default.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-File.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-GridView.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-Host.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-Null.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-Printer.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-String.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Pop-Location.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\popd.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ps.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Push-Location.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\pushd.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\pwd.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\r.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rbp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rcjb.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rd.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rdr.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Read-Host.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Receive-Job.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Register-EngineEvent.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Register-ObjectEvent.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Register-PSSessionConfiguration.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Register-WmiEvent.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Computer.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Event.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-EventLog.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Item.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-ItemProperty.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Job.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Module.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-PSBreakpoint.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-PSDrive.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-PSSession.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-PSSnapin.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Variable.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-WmiObject.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-WSManInstance.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ren.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Rename-Item.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Rename-ItemProperty.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Reset-ComputerMachinePassword.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Resolve-Path.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Restart-Computer.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Restart-Service.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Restore-Computer.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Resume-Service.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ri.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rjb.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rm.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rmdir.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rmo.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rni.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rnp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rsn.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rsnp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rvpa.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rwmi.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sajb.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sal.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\saps.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sasv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sbp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sc.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Select-Object.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Select-String.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Select-XML.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\select.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Send-MailMessage.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Acl.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Alias.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-AuthenticodeSignature.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Content.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Date.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-ExecutionPolicy.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Item.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-ItemProperty.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Location.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-PSBreakpoint.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-PSDebug.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-PSSessionConfiguration.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Service.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-StrictMode.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-TraceSource.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Variable.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-WmiInstance.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-WSManInstance.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-WSManQuickConfig.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\set.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Show-EventLog.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\si.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sl.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sleep.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Sort-Object.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sort.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sp.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\spjb.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Split-Path.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\spps.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\spsv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Job.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Process.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Service.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Sleep.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Transaction.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Transcript.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\start.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Stop-Computer.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Stop-Job.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Stop-Process.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Stop-Service.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Stop-Transcript.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Suspend-Service.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sv.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\swmi.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Tee-Object.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\tee.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Test-ComputerSecureChannel.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Test-Connection.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Test-ModuleManifest.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Test-Path.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Test-WSMan.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Trace-Command.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\type.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Undo-Transaction.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Unregister-Event.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Unregister-PSSessionConfiguration.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Update-FormatData.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Update-List.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Update-TypeData.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Use-Transaction.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Wait-Event.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Wait-Job.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Wait-Process.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Where-Object.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\where.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\wjb.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Debug.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Error.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-EventLog.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Host.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Output.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Progress.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Verbose.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Warning.txt.gzip" />
+    <None Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\write.txt.gzip" />
+    <None Include="REMINDER.md" />
+    <None Include="source.extension.vsixmanifest">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Key.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ExtensionIcon.1.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ExtensionIcon.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Images\bat.blue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Images\bat.orange.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Images\bat.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Images\json.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Images\PS1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Resource Include="LanguageServices\Languages\Bash\bat.png" />
+    <Content Include="License.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ReleaseNotes.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Reminder.html">
+      <DependentUpon>REMINDER.md</DependentUpon>
+    </Content>
+    <Content Include="REMINDER.min.html">
+      <DependentUpon>Reminder.html</DependentUpon>
+    </Content>
+    <Content Include="TextHighlighterPackage.vsct">
+      <SubType>Designer</SubType>
+    </Content>
+    <Resource Include="LanguageServices\Languages\Bat\bat.png" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\%25.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ac.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-Computer.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-Content.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-History.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-Member.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-PSSnapin.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Add-Type.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\asnp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cat.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cd.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\chdir.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Checkpoint-Computer.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\clc.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-Content.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-EventLog.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-History.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-Item.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-ItemProperty.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Clear-Variable.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\clear.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\clhy.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cli.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\clp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cls.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\clv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Compare-Object.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\compare.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Complete-Transaction.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Connect-WSMan.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Convert-Path.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertFrom-CSV.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertFrom-SecureString.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertFrom-StringData.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertTo-CSV.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertTo-Html.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertTo-SecureString.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ConvertTo-XML.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Copy-Item.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Copy-ItemProperty.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\copy.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cpi.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cpp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\cvpa.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\dbp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Debug-Process.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\del.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\diff.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\dir.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Disable-ComputerRestore.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Disable-PSBreakpoint.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Disable-PSSessionConfiguration.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Disable-WSManCredSSP.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Disconnect-WSMan.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ebp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\echo.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enable-ComputerRestore.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enable-PSBreakpoint.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enable-PSRemoting.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enable-PSSessionConfiguration.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enable-WSManCredSSP.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Enter-PSSession.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\epal.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\epcsv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\epsn.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\erase.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\etsn.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Exit-PSSession.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-Alias.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-Clixml.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-Console.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-Counter.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-CSV.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-FormatData.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-ModuleMember.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Export-PSSession.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\exsn.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\fc.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\fl.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ForEach-Object.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\foreach.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Format-Custom.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Format-List.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Format-Table.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Format-Wide.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ft.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\fw.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gal.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gbp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gc.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gci.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gcm.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gcs.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gdr.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Acl.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Alias.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-AuthenticodeSignature.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-ChildItem.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Command.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-ComputerRestorePoint.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Content.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Counter.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Credential.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Culture.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Date.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Event.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-EventLog.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-EventSubscriber.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-ExecutionPolicy.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-FormatData.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-History.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Host.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-HotFix.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Item.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-ItemProperty.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Job.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Location.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Member.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Module.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PfxCertificate.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Process.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSBreakpoint.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSCallStack.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSDrive.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSProvider.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSSession.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSSessionConfiguration.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-PSSnapin.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Random.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Service.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-TraceSource.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Transaction.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-UICulture.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Unique.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-Variable.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-WinEvent.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-WmiObject.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-WSManCredSSP.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Get-WSManInstance.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ghy.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gi.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gjb.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gl.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gm.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gmo.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gps.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Group-Object.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\group.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gsn.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gsnp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gsv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gu.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\gwmi.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\h.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\history.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\icm.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\iex.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ihy.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ii.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-Alias.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-Clixml.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-Counter.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-CSV.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-LocalizedData.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-Module.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Import-PSSession.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-Command.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-Expression.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-History.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-Item.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-WmiMethod.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Invoke-WSManAction.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ipal.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ipcsv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ipmo.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ipsn.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ise.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\iwmi.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Join-Path.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\kill.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Limit-EventLog.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\lp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ls.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\man.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\md.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Measure-Command.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Measure-Object.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\measure.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\mi.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\mount.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Move-Item.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Move-ItemProperty.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\move.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\mp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\mv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\nal.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ndr.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Alias.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Event.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-EventLog.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Item.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-ItemProperty.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Module.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-ModuleManifest.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Object.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-PSDrive.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-PSSession.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-PSSessionOption.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Service.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-TimeSpan.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-Variable.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-WebServiceProxy.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-WSManInstance.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\New-WSManSessionOption.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ni.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\nmo.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\nsn.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\nv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ogv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\oh.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-Default.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-File.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-GridView.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-Host.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-Null.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-Printer.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Out-String.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Pop-Location.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\popd.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ps.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Push-Location.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\pushd.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\pwd.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\r.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rbp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rcjb.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rd.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rdr.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Read-Host.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Receive-Job.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Register-EngineEvent.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Register-ObjectEvent.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Register-PSSessionConfiguration.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Register-WmiEvent.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Computer.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Event.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-EventLog.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Item.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-ItemProperty.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Job.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Module.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-PSBreakpoint.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-PSDrive.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-PSSession.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-PSSnapin.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-Variable.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-WmiObject.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Remove-WSManInstance.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ren.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Rename-Item.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Rename-ItemProperty.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Reset-ComputerMachinePassword.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Resolve-Path.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Restart-Computer.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Restart-Service.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Restore-Computer.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Resume-Service.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\ri.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rjb.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rm.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rmdir.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rmo.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rni.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rnp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rsn.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rsnp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rvpa.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\rwmi.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sajb.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sal.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\saps.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sasv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sbp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sc.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Select-Object.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Select-String.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Select-XML.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\select.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Send-MailMessage.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Acl.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Alias.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-AuthenticodeSignature.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Content.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Date.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-ExecutionPolicy.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Item.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-ItemProperty.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Location.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-PSBreakpoint.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-PSDebug.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-PSSessionConfiguration.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Service.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-StrictMode.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-TraceSource.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-Variable.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-WmiInstance.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-WSManInstance.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Set-WSManQuickConfig.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\set.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Show-EventLog.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\si.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sl.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sleep.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Sort-Object.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sort.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sp.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\spjb.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Split-Path.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\spps.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\spsv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Job.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Process.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Service.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Sleep.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Transaction.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Start-Transcript.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\start.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Stop-Computer.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Stop-Job.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Stop-Process.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Stop-Service.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Stop-Transcript.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Suspend-Service.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\sv.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\swmi.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Tee-Object.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\tee.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Test-ComputerSecureChannel.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Test-Connection.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Test-ModuleManifest.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Test-Path.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Test-WSMan.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Trace-Command.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\type.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Undo-Transaction.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Unregister-Event.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Unregister-PSSessionConfiguration.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Update-FormatData.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Update-List.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Update-TypeData.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Use-Transaction.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Wait-Event.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Wait-Job.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Wait-Process.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Where-Object.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\where.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\wjb.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Debug.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Error.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-EventLog.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Host.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Output.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Progress.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Verbose.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\Write-Warning.txt" />
+    <Resource Include="LanguageServices\Languages\PS1\GenerateIntellisense\Txt\write.txt" />
+    <Content Include="Resources\Package.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Demo\Bash\" />
+    <Folder Include="LanguageServices\Util\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CTxt\CTxt.csproj">
+      <Project>{9908e6c8-15b6-47f7-ac26-33dc6f02ba18}</Project>
+      <Name>CTxt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JSON.SyntaxValidator\JSON.SyntaxValidator\JSON.SyntaxValidator\JSON.SyntaxValidator.csproj">
+      <Project>{2e2aa82f-740b-41fd-855d-60618319f8cc}</Project>
+      <Name>JSON.SyntaxValidator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TextHighlighterColorDefinition\TextHighlighterColorDefinition.csproj">
+      <Project>{72a3be8b-1113-4aac-b086-c1c11fd06420}</Project>
+      <Name>TextHighlighterColorDefinition</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utils\Utils.csproj">
+      <Project>{d73d6197-9304-4738-80c3-1fc8fdd404a5}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <UseCodebase>true</UseCodebase>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,12 @@
+﻿TextHighlighterExtension Release Notes
+======================================
+(C) Torres Frederic 2010-2014
+
+01/2014 Release of version 3.2 for Visual Studio 2013
+
+The extension named TextHighlighterExtension works with Visual Studio 2010.
+The extension named TextHighlighterExtension2012 works with Visual Studio 2012.
+The extension named TextHighlighterExtension2012 works with Visual Studio 2013.
+
+There are 3 different extensions and there are 3 different VSIX files.
+

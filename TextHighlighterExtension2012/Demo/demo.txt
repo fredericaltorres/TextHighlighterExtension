@@ -1,0 +1,992 @@
+6/15/2010 9:21:33 AM [CALL]    [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]	Minor Error
+6/15/2010 9:21:33 AM [ERROR]	Major Error
+6/15/2010 9:21:33 AM [WARNING] [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]    [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]    [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]    [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [TUTU]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [PASSED]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [INFO]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginwa.aspx
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [CALL]   [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')6/15/2010 9:21:33 AM [CALL]    [User:]  ASP.global_asax.Application_AuthenticateRequest (sender:'ASP.global_asax', e:'System.EventArgs')
+6/15/2010 9:21:33 AM [ERROR]	Minor Error
+6/15/2010 9:21:33 AM [ERROR]	Major Error
+6/15/2010 9:21:35 AM [WARNING] [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:21:36 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:21:37 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+
+6/15/2010 9:21:38 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:21:39 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:21:40 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:22:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:23:33 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:24:33 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:25:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:26:33 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:27:33 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:28:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:29:33 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:21:33 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:31:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:41:33 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:51:33 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:61:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:11:33 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:21:33 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:31:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:41:33 AM [PASSED]  [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:51:33 AM [INFO]    [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx
+6/15/2010 9:59:33 AM [ERROR]   [User:]  ASP.global_asax.Application_AuthenticateRequest url:/loginDialog.aspx

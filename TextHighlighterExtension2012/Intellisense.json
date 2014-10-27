@@ -1,0 +1,67 @@
+﻿/*
+    TextHighLighterExtension v 2.x - Copyright (c) 2010,2012,2013 Frederic Torres
+    Text syntax Highlighting for Visual Studio 2010, 2012 (.txt, .log, .bat, .ini, .json)
+
+    Intellisense Customization
+
+    "use relax"  
+*/
+{
+    BAT : { 
+
+        net : [             
+                {  DisplayText   : "start" },
+                {  DisplayText   : "stop"  },
+        ],
+
+        if : [
+                { DisplayText : "ERRORLEVEL 0 "     },
+                { DisplayText : "\"\" == \"\" "     },
+                { DisplayText : "exist \"\" "       },
+                { DisplayText : "defined "          },
+                { DisplayText : "not ERRORLEVEL 0 " },
+                { DisplayText : "not exist \"\" "   },
+                { DisplayText : "not defined "      },
+        ],
+
+        for : [            
+                { 
+                    DisplayText   : "for - integer loop for one command",
+                    InsertionText : "/l %%x in (1, 1, 100) do echo %%x",
+                    Description   : "Execute a command n time",
+                },
+                { 
+                    DisplayText   : "for - integer loop for one block",
+                    InsertionText : "/l %%x in (1, 1, 100) do ( \n\techo %%x \n)",
+                    Description   : "Execute a block of command n time",
+                },
+                { 
+                    DisplayText   : "for - loop through a list for one command",
+                    InsertionText : "%%x in (AAA BBB CCC) do echo %%x",
+                    Description   : "Loop through a list for one command",
+                },
+                { 
+                    DisplayText   : "for - loop through a list for one block",
+                    InsertionText : "%%x in (AAA BBB CCC) do ( \n\techo %%x \n)",
+                    Description   : "Loop through a list for one block",
+                },
+                { 
+                    DisplayText   : "for - execute multiple commands on a file",
+                    InsertionText : "%%x in (type dir dir/b/s) do %%x FILE-NAME",
+                    Description   : "Execute multiple commands on a file",
+                }
+        ],
+        findstr : [
+                {
+                    DisplayText   : "find string in files with RegExp, ignore case",
+                    InsertionText : "/i /r \"REG-EXP\" *.txt",
+                    Description   : "find string in files with regular expression, ignore case",
+                },
+                {
+                    DisplayText   : "find string in files, ignore case",
+                    InsertionText : "/i /l \"EXP\" *.txt",
+                    Description   : "find string in files, ignore case",
+                }                
+        ]
+    }
+}

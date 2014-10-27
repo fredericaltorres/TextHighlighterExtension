@@ -1,0 +1,16 @@
+﻿/* "use relax" */
+{
+	LastName : "Torres"			   ,
+	FirstName: "Frederic"			   ,
+	BirthDate: "1964-12-11T00:00:00Z",
+	Age	   : 48					   ,
+	Male	   : true				   ,
+	Other	   : null,
+
+	$_LastName : "Torres"			   ,
+	$_FirstName: "Frederic"			   ,
+	$_BirthDate: "1964-12-11T00:00:00Z",
+	$_Age	   : 48					   ,
+	$_Male	   : true				   ,
+	$_Other	   : null
+}
